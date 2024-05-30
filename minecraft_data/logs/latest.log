@@ -1,0 +1,1237 @@
+[12:37:56] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.15.11
+[12:37:56] [main/INFO]: Loading 161 mods:
+	- ambientenvironment 11.0.0.1
+	- aqupdgrizzly 1.20-1.6.1
+	- awesomedungeon 3.2.0
+	- bclib 3.0.14
+	   \-- wunderlib 1.1.5
+	- betterdeserttemples 1.20-Fabric-3.0.3
+	   \-- org_reflections_reflections 0.10.2
+	- betterdungeons 1.20-Fabric-4.0.3
+	- betterend 4.0.11
+	- betterendisland 1.20-Fabric-2.0.6
+	- betterfortresses 1.20-Fabric-2.0.6
+	- betterfpsdist 1.20.1-4.3
+	- betterjungletemples 1.20-Fabric-2.0.4
+	- bettermineshafts 1.20-Fabric-4.0.4
+	- betternether 9.0.10
+	- betteroceanmonuments 1.20-Fabric-3.0.4
+	- botarium 2.3.3
+	   \-- team_reborn_energy 3.0.0
+	- cloth-config 11.1.118
+	   \-- cloth-basic-math 0.6.1
+	- create 0.5.1-f-build.1335+mc1.20.1
+	   |-- com_google_code_findbugs_jsr305 3.0.2
+	   |-- flywheel 0.6.10-2
+	   |-- milk 1.2.60
+	   |    \-- dripstone_fluid_lib 3.0.2
+	   |-- porting_lib_brewing 2.3.0+1.20.1
+	   |-- porting_lib_models 2.3.0+1.20.1
+	   |    \-- porting_lib_model_loader 2.3.0+1.20.1
+	   |-- porting_lib_obj_loader 2.3.0+1.20.1
+	   |    \-- porting_lib_model_loader 2.3.0+1.20.1
+	   |-- porting_lib_tags 3.0
+	   |-- reach-entity-attributes 2.4.0
+	   \-- registrate-fabric 1.3.62-MC1.20.1
+	        |-- porting_lib_data 2.1.1090+1.20
+	        |    \-- porting_lib_gametest 2.1.1090+1.20
+	        \-- porting_lib_model_generators 2.1.1090+1.20
+	             |-- porting_lib_gametest 2.1.1090+1.20
+	             \-- porting_lib_model_materials 2.1.1090+1.20
+	- create_new_age 1.1.2
+	- createdeco 2.0.1-1.20.1-fabric
+	- cristellib 1.1.5
+	   \-- blue_endless_jankson 1.2.3
+	- croptopia 3.0.3
+	- cupboard 1.20.1-1.8
+	- disenchanting_table 2.2.0
+	- elytraslot 6.3.0+1.20.1
+	- epherolib 1.2.0
+	- expanded_ecosphere 3.2.4
+	- fabric-api 0.91.0+1.20.1
+	   |-- fabric-api-base 0.4.30+7abfd51577
+	   |-- fabric-api-lookup-api-v1 1.6.35+4d8536c977
+	   |-- fabric-biome-api-v1 13.0.12+215bbe9677
+	   |-- fabric-block-api-v1 1.0.10+92a0d36777
+	   |-- fabric-block-view-api-v2 1.0.0+92a0d36777
+	   |-- fabric-blockrenderlayer-v1 1.1.40+b3afc78b77
+	   |-- fabric-client-tags-api-v1 1.1.1+97bb207577
+	   |-- fabric-command-api-v1 1.2.33+f71b366f77
+	   |-- fabric-command-api-v2 2.2.12+b3afc78b77
+	   |-- fabric-commands-v0 0.2.50+df3654b377
+	   |-- fabric-containers-v0 0.1.63+df3654b377
+	   |-- fabric-content-registries-v0 4.0.10+57aed33f77
+	   |-- fabric-convention-tags-v1 1.5.4+a1a980da77
+	   |-- fabric-crash-report-info-v1 0.2.18+aeb40ebe77
+	   |-- fabric-data-generation-api-v1 12.3.3+d7b148e077
+	   |-- fabric-dimensions-v1 2.1.53+8536527b77
+	   |-- fabric-entity-events-v1 1.5.22+b3afc78b77
+	   |-- fabric-events-interaction-v0 0.6.1+e91849a877
+	   |-- fabric-events-lifecycle-v0 0.2.62+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.39+ae9f657a77
+	   |-- fabric-item-api-v1 2.1.27+b3afc78b77
+	   |-- fabric-item-group-api-v1 4.0.11+d7b148e077
+	   |-- fabric-key-binding-api-v1 1.0.36+fb8d95da77
+	   |-- fabric-keybindings-v0 0.2.34+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.21+b3afc78b77
+	   |-- fabric-loot-api-v2 1.2.0+96dfa95977
+	   |-- fabric-loot-tables-v1 1.1.44+9e7660c677
+	   |-- fabric-message-api-v1 5.1.8+d7b148e077
+	   |-- fabric-mining-level-api-v1 2.1.49+b3afc78b77
+	   |-- fabric-model-loading-api-v1 1.0.2+709a987177
+	   |-- fabric-models-v0 0.4.1+9386d8a777
+	   |-- fabric-networking-api-v1 1.3.10+eeb8eb3677
+	   |-- fabric-networking-v0 0.3.50+df3654b377
+	   |-- fabric-object-builder-api-v1 11.1.2+4ee0bc6077
+	   |-- fabric-particles-v1 1.1.1+201a23a077
+	   |-- fabric-recipe-api-v1 1.0.20+b3afc78b77
+	   |-- fabric-registry-sync-v0 2.3.2+4df89eb277
+	   |-- fabric-renderer-api-v1 3.2.0+39a511ba77
+	   |-- fabric-renderer-indigo 1.5.0+39a511ba77
+	   |-- fabric-renderer-registries-v1 3.2.45+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.36+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.27+b3afc78b77
+	   |-- fabric-rendering-v0 1.1.48+df3654b377
+	   |-- fabric-rendering-v1 3.0.7+b3afc78b77
+	   |-- fabric-resource-conditions-api-v1 2.3.7+29de845d77
+	   |-- fabric-resource-loader-v0 0.11.9+132c48c177
+	   |-- fabric-screen-api-v1 2.0.7+b3afc78b77
+	   |-- fabric-screen-handler-api-v1 1.3.29+b3afc78b77
+	   |-- fabric-sound-api-v1 1.0.12+b3afc78b77
+	   |-- fabric-transfer-api-v1 3.3.3+c81d263177
+	   \-- fabric-transitive-access-wideners-v1 4.3.0+6c31357e77
+	- fabricloader 0.15.11
+	   \-- mixinextras 0.3.5
+	- farmersdelight 1.20.1-2.1.1+refabricated
+	   |-- mm 2.3
+	   |-- porting_lib_accessors 2.3.4+1.20.1
+	   |    \-- porting_lib_core 2.3.4+1.20.1
+	   |-- porting_lib_base 2.3.4+1.20.1
+	   |    |-- porting_lib_attributes 2.3.4+1.20.1
+	   |    |-- porting_lib_common 2.3.4+1.20.1
+	   |    |-- porting_lib_core 2.3.4+1.20.1
+	   |    |-- porting_lib_entity 2.3.4+1.20.1
+	   |    |-- porting_lib_fluids 2.3.4+1.20.1
+	   |    |-- porting_lib_mixin_extensions 2.3.4+1.20.1
+	   |    |-- porting_lib_transfer 2.3.4+1.20.1
+	   |    |-- porting_lib_utility 2.3.4+1.20.1
+	   |    \-- reach-entity-attributes 2.4.0
+	   |-- porting_lib_client_events 2.3.4+1.20.1
+	   |    \-- porting_lib_core 2.3.4+1.20.1
+	   |-- porting_lib_config 2.3.4+1.20.1
+	   |    \-- porting_lib_core 2.3.4+1.20.1
+	   |-- porting_lib_extensions 2.3.4+1.20.1
+	   |    |-- porting_lib_attributes 2.3.4+1.20.1
+	   |    |-- porting_lib_common 2.3.4+1.20.1
+	   |    |-- porting_lib_core 2.3.4+1.20.1
+	   |    \-- reach-entity-attributes 2.4.0
+	   |-- porting_lib_lazy_registration 2.3.4+1.20.1
+	   |    \-- porting_lib_core 2.3.4+1.20.1
+	   |-- porting_lib_loot 2.3.4+1.20.1
+	   |    \-- porting_lib_core 2.3.4+1.20.1
+	   |-- porting_lib_networking 2.3.4+1.20.1
+	   |    \-- porting_lib_core 2.3.4+1.20.1
+	   |-- porting_lib_recipe_book_categories 2.3.4+1.20.1
+	   |    \-- porting_lib_core 2.3.4+1.20.1
+	   |-- porting_lib_registries 2.3.4+1.20.1
+	   |    \-- porting_lib_core 2.3.4+1.20.1
+	   \-- porting_lib_tool_actions 2.3.4+1.20.1
+	        \-- porting_lib_core 2.3.4+1.20.1
+	- forgeconfigapiport 8.0.0
+	- geckolib 4.4.4
+	   \-- com_eliotlash_mclib_mclib 20
+	- indium 1.0.30+mc1.20.4
+	- iris 1.6.17
+	   |-- io_github_douira_glsl-transformer 2.0.0-pre13
+	   |-- org_anarres_jcpp 1.4.14
+	   \-- org_antlr_antlr4-runtime 4.11.1
+	- java 17
+	- libraryferret 4.0.0
+	- midnightlib 1.4.1
+	- minecraft 1.20.1
+	- modmenu 7.2.1
+	- monolib 1.1.0
+	- moremobvariants 1.3.0.1
+	- mru 0.4.0+1.20
+	- naturalist 4.0.3
+	- patchouli 1.20.1-84-FABRIC
+	   \-- fiber 0.23.0-2
+	- regions_unexplored 0.5.5+1.20.1
+	   |-- completeconfig-base 2.5.2
+	   \-- completeconfig-gui-cloth 2.5.2
+	- resourcefulconfig 2.1.2
+	- resourcefullib 2.1.24
+	   |-- com_teamresourceful_bytecodecs 1.0.2
+	   \-- com_teamresourceful_yabn 1.0.3
+	- skinlayers3d 1.6.4
+	- sodium 0.5.8+mc1.20.1
+	   |-- fabric-api-base 0.4.30+7abfd51577
+	   |-- fabric-block-view-api-v2 1.0.0+92a0d36777
+	   |-- fabric-rendering-data-attachment-v1 0.3.36+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.27+b3afc78b77
+	   \-- fabric-resource-loader-v0 0.11.9+132c48c177
+	- terrablender 3.0.1.4
+	   |-- com_electronwill_night-config_core 3.6.7
+	   \-- com_electronwill_night-config_toml 3.6.7
+	- terralith 2.4.5
+	- trinkets 3.7.2
+	   |-- cardinal-components-base 5.2.0
+	   \-- cardinal-components-entity 5.2.0
+	- villagesandpillages 1.0.0
+	- wildlife 1.19.2-2.2
+	- woof 4.0.2+1.20.1
+	- yungsapi 1.20-Fabric-4.0.5
+	   |-- mixinextras 0.3.5
+	   \-- org_javassist_javassist 3.29.2-GA
+[12:37:56] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/arube/AppData/Roaming/.minecraft/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[12:37:56] [main/INFO]: Compatibility level set to JAVA_17
+[12:37:57] [main/WARN]: Reference map 'createdeco-fabric-refmap.json' for createdeco.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:37:57] [main/WARN]: Reference map 'createdeco-common-refmap.json' for createdeco-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:37:57] [main/WARN]: Reference map 'expanded_ecosphere-fabric-refmap.json' for wwoo.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:37:57] [main/WARN]: Reference map 'monolib.refmap.json' for monolib.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:37:57] [main/WARN]: Reference map 'monolib.refmap.json' for monolib.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:37:57] [main/WARN]: Reference map 'mru-refmap.json' for mru.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:37:57] [main/INFO]: Loaded configuration file for Sodium: 42 options available, 3 override(s) found
+[12:37:57] [main/WARN]: Reference map 'wildlife-refmap.json' for wildlife.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:37:57] [main/WARN]: Error loading class: io/vram/frex/base/renderer/context/render/EntityBlockRenderContext (java.lang.ClassNotFoundException: io/vram/frex/base/renderer/context/render/EntityBlockRenderContext)
+[12:37:57] [main/WARN]: @Mixin target io.vram.frex.base.renderer.context.render.EntityBlockRenderContext was not found porting_lib_base.mixins.json:client.frex.EntityBlockRenderContextMixin from mod porting_lib_base
+[12:37:58] [main/WARN]: Force-disabling mixin 'features.render.entity.CuboidMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[12:37:58] [main/WARN]: Force-disabling mixin 'features.render.entity.ModelPartMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[12:37:58] [main/WARN]: Force-disabling mixin 'features.render.entity.cull.EntityRendererMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[12:37:58] [main/WARN]: Force-disabling mixin 'features.render.entity.shadows.EntityRenderDispatcherMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[12:37:58] [main/WARN]: Force-disabling mixin 'features.render.gui.font.GlyphRendererMixin' as rule 'mixin.features.render.gui.font' (added by mods [iris]) disables it and children
+[12:37:58] [main/WARN]: Force-disabling mixin 'features.render.world.sky.BackgroundRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[12:37:58] [main/WARN]: Force-disabling mixin 'features.render.world.sky.ClientWorldMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[12:37:58] [main/WARN]: Force-disabling mixin 'features.render.world.sky.WorldRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[12:37:58] [main/INFO]: Searching for graphics cards...
+[12:37:58] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[12:37:58] [main/INFO]: Found graphics card: GraphicsAdapterInfo[vendor=INTEL, name=Intel(R) Iris(R) Xe Graphics, version=DriverVersion=31.0.101.3413]
+[12:38:00] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on porting_lib_entity.mixins.json:common.LivingEntityMixin from mod porting_lib_entity::handler$clc000$porting_lib_entity$port_lib$onFinishUsing exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[12:38:01] [main/WARN]: Error loading class: org/spongepowered/asm/synthetic/args/Args$4 (java.lang.ClassNotFoundException: org/spongepowered/asm/synthetic/args/Args$4)
+[12:38:05] [Datafixer Bootstrap/INFO]: 188 Datafixer optimizations took 174 milliseconds
+[12:38:07] [main/INFO]: [bclib] Added Config betternether.main to auto sync (file hash)
+[12:38:07] [main/INFO]: [bclib] Added Config betternether.generator to auto sync (file hash)
+[12:38:07] [main/INFO]: [bclib] Added Config betternether.blocks to auto sync (file hash)
+[12:38:07] [main/INFO]: [bclib] Added Config betternether.items to auto sync (file hash)
+[12:38:07] [main/INFO]: [bclib] Added Config betternether.biomes to auto sync (file hash)
+[12:38:07] [main/INFO]: [bclib] Added Config betternether.mobs to auto sync (file hash)
+[12:38:07] [main/INFO]: [bclib] Added Config betternether.recipes to auto sync (file hash)
+[12:38:08] [main/WARN]: [bclib] Recipe betternether:bone_block_bone_button only takes in a single item and should be shapeless
+[12:38:08] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12:38:09] [Render thread/INFO]: Setting user: OzaRu_
+[12:38:09] [Render thread/INFO]: [AqUpd's Mobs] Grizzly Bears mod is loaded!
+[12:38:09] [Render thread/INFO]: Welcome! C:\Users\arube\Desktop\Mods\overrides\config/libraryferret_1.properties created and initialized with default value
+[12:38:09] [Render thread/INFO]: Welcome! C:\Users\arube\Desktop\Mods\overrides\config/awesomedungeon_1.properties created and initialized with default value
+[12:38:09] [Render thread/INFO]: [bclib] Added Config bclib.generator to auto sync (file hash)
+[12:38:09] [Render thread/INFO]: [bclib] Added Config bclib.main to auto sync (content diff)
+[12:38:09] [Render thread/INFO]: [bclib] Added Config bclib.biomes to auto sync (file hash)
+[12:38:09] [Render thread/INFO]: Reflections took 70 ms to scan 1 urls, producing 1 keys and 2 values
+[12:38:09] [Render thread/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[12:38:09] [Render thread/INFO]: Creating directory for additional Better Desert Temples configuration at C:\Users\arube\Desktop\Mods\overrides\config\betterdeserttemples\fabric-1_20
+[12:38:09] [Render thread/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[12:38:09] [Render thread/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
+[12:38:10] [Render thread/INFO]: [bclib] Added Config betterend.entities to auto sync (file hash)
+[12:38:10] [Render thread/INFO]: [bclib] Added Config betterend.blocks to auto sync (file hash)
+[12:38:10] [Render thread/INFO]: [bclib] Added Config betterend.items to auto sync (file hash)
+[12:38:10] [Render thread/INFO]: [bclib] Added Config betterend.biomes to auto sync (file hash)
+[12:38:10] [Render thread/INFO]: [bclib] Added Config betterend.recipes to auto sync (file hash)
+[12:38:10] [Render thread/INFO]: [bclib] Added Config betterend.enchantments to auto sync (file hash)
+[12:38:16] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[12:38:16] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[12:38:16] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[12:38:16] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[12:38:16] [Render thread/INFO]: Creating directory for additional Better Nether Fortresses configuration at C:\Users\arube\Desktop\Mods\overrides\config\betterfortresses\fabric-1_20
+[12:38:16] [Render thread/INFO]: betterfpsdist mod initialized
+[12:38:16] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[12:38:16] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[12:38:16] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[12:38:16] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[12:38:16] [Render thread/INFO]: [betternether] =^..^=    BetterNether for 1.20    =^..^=
+[12:38:17] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[12:38:17] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[12:38:19] [Render thread/WARN]: Configuration file C:\Users\arube\Desktop\Mods\overrides\config\create-common.toml is not correct. Correcting
+[12:38:19] [Render thread/WARN]: Incorrect key worldgen was corrected from null to its default, SimpleCommentedConfig:{}. 
+[12:38:19] [Render thread/WARN]: Incorrect key worldgen.disableWorldGen was corrected from null to its default, false. 
+[12:38:19] [Render thread/WARN]: Configuration file C:\Users\arube\Desktop\Mods\overrides\config\create-client.toml is not correct. Correcting
+[12:38:19] [Render thread/WARN]: Incorrect key client was corrected from null to its default, SimpleCommentedConfig:{}. 
+[12:38:19] [Render thread/WARN]: Incorrect key client.enableTooltips was corrected from null to its default, true. 
+[12:38:19] [Render thread/WARN]: Incorrect key client.enableOverstressedTooltip was corrected from null to its default, true. 
+[12:38:19] [Render thread/WARN]: Incorrect key client.explainRenderErrors was corrected from null to its default, false. 
+[12:38:19] [Render thread/WARN]: Incorrect key client.fanParticleDensity was corrected from null to its default, 0.5. 
+[12:38:19] [Render thread/WARN]: Incorrect key client.filterItemRenderDistance was corrected from null to its default, 10.0. 
+[12:38:19] [Render thread/WARN]: Incorrect key client.enableRainbowDebug was corrected from null to its default, false. 
+[12:38:19] [Render thread/WARN]: Incorrect key client.maximumContraptionLightVolume was corrected from null to its default, 16384. 
+[12:38:19] [Render thread/WARN]: Incorrect key client.mainMenuConfigButtonRow was corrected from null to its default, 2. 
+[12:38:19] [Render thread/WARN]: Incorrect key client.mainMenuConfigButtonOffsetX was corrected from null to its default, -4. 
+[12:38:19] [Render thread/WARN]: Incorrect key client.ingameMenuConfigButtonRow was corrected from null to its default, 3. 
+[12:38:19] [Render thread/WARN]: Incorrect key client.ingameMenuConfigButtonOffsetX was corrected from null to its default, -4. 
+[12:38:19] [Render thread/WARN]: Incorrect key client.ignoreFabulousWarning was corrected from null to its default, false. 
+[12:38:19] [Render thread/WARN]: Incorrect key client.fluidUnitType was corrected from null to its default, MILLIBUCKETS. 
+[12:38:19] [Render thread/WARN]: Incorrect key client.simplifyFluidUnit was corrected from null to its default, true. 
+[12:38:19] [Render thread/WARN]: Incorrect key client.toolboxHotbarOverlayOffset was corrected from null to its default, 0. 
+[12:38:19] [Render thread/WARN]: Incorrect key client.fluidFogSettings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[12:38:19] [Render thread/WARN]: Incorrect key client.fluidFogSettings.honey was corrected from null to its default, 1.0. 
+[12:38:19] [Render thread/WARN]: Incorrect key client.fluidFogSettings.chocolate was corrected from null to its default, 1.0. 
+[12:38:19] [Render thread/WARN]: Incorrect key client.goggleOverlay was corrected from null to its default, SimpleCommentedConfig:{}. 
+[12:38:19] [Render thread/WARN]: Incorrect key client.goggleOverlay.overlayOffsetX was corrected from null to its default, 20. 
+[12:38:19] [Render thread/WARN]: Incorrect key client.goggleOverlay.overlayOffsetY was corrected from null to its default, 0. 
+[12:38:19] [Render thread/WARN]: Incorrect key client.goggleOverlay.customColorsOverlay was corrected from null to its default, false. 
+[12:38:19] [Render thread/WARN]: Incorrect key client.goggleOverlay.customBackgroundOverlay was corrected from null to its default, -267386864. 
+[12:38:19] [Render thread/WARN]: Incorrect key client.goggleOverlay.customBorderTopOverlay was corrected from null to its default, 1347420415. 
+[12:38:19] [Render thread/WARN]: Incorrect key client.goggleOverlay.customBorderBotOverlay was corrected from null to its default, 1344798847. 
+[12:38:19] [Render thread/WARN]: Incorrect key client.placementAssist was corrected from null to its default, SimpleCommentedConfig:{}. 
+[12:38:19] [Render thread/WARN]: Incorrect key client.placementAssist.indicatorType was corrected from null to its default, TEXTURE. 
+[12:38:19] [Render thread/WARN]: Incorrect key client.placementAssist.indicatorScale was corrected from null to its default, 1.0. 
+[12:38:19] [Render thread/WARN]: Incorrect key client.ponder was corrected from null to its default, SimpleCommentedConfig:{}. 
+[12:38:19] [Render thread/WARN]: Incorrect key client.ponder.comfyReading was corrected from null to its default, false. 
+[12:38:19] [Render thread/WARN]: Incorrect key client.ponder.editingMode was corrected from null to its default, false. 
+[12:38:19] [Render thread/WARN]: Incorrect key client.sound was corrected from null to its default, SimpleCommentedConfig:{}. 
+[12:38:19] [Render thread/WARN]: Incorrect key client.sound.enableAmbientSounds was corrected from null to its default, true. 
+[12:38:19] [Render thread/WARN]: Incorrect key client.sound.ambientVolumeCap was corrected from null to its default, 0.10000000149011612. 
+[12:38:19] [Render thread/WARN]: Incorrect key client.trains was corrected from null to its default, SimpleCommentedConfig:{}. 
+[12:38:19] [Render thread/WARN]: Incorrect key client.trains.mountedZoomMultiplier was corrected from null to its default, 3.0. 
+[12:38:19] [Render thread/WARN]: Incorrect key client.trains.showTrackGraphOnF3 was corrected from null to its default, false. 
+[12:38:19] [Render thread/WARN]: Incorrect key client.trains.showExtendedTrackGraphOnF3 was corrected from null to its default, false. 
+[12:38:19] [Render thread/INFO]: Hello 1.20.1 Create!
+[12:38:19] [Render thread/WARN]: Configuration file C:\Users\arube\Desktop\Mods\overrides\config\create_new_age-client.toml is not correct. Correcting
+[12:38:19] [Render thread/WARN]: Incorrect key wireSectionsPerMeter was corrected from null to its default, 10. 
+[12:38:19] [Render thread/WARN]: Incorrect key wireThickness was corrected from null to its default, 0.03. 
+[12:38:19] [Render thread/WARN]: Configuration file C:\Users\arube\Desktop\Mods\overrides\config\create_new_age-common.toml is not correct. Correcting
+[12:38:19] [Render thread/WARN]: Incorrect key suToEnergy was corrected from null to its default, 0.029296875. 
+[12:38:19] [Render thread/WARN]: Incorrect key maxCoils was corrected from null to its default, 8. 
+[12:38:19] [Render thread/WARN]: Incorrect key maxRodsInDirection was corrected from null to its default, 32. 
+[12:38:19] [Render thread/WARN]: Incorrect key conductivityMultiplier was corrected from null to its default, 1.0. 
+[12:38:19] [Render thread/WARN]: Incorrect key maxPathfindingDepth was corrected from null to its default, 32. 
+[12:38:19] [Render thread/WARN]: Incorrect key energiserSpeedMultiplier was corrected from null to its default, 1.0. 
+[12:38:19] [Render thread/WARN]: Incorrect key overheatingMultiplier was corrected from null to its default, 1.0. 
+[12:38:19] [Render thread/WARN]: Incorrect key passiveHeatSourceMultiplier was corrected from null to its default, 1.0. 
+[12:38:19] [Render thread/WARN]: Incorrect key passivePipeHeatLoss was corrected from null to its default, 1.0. 
+[12:38:19] [Render thread/WARN]: Incorrect key boilerRequiredHeatMultiplier was corrected from null to its default, 1.0. 
+[12:38:19] [Render thread/WARN]: Incorrect key ReactorRodHeat was corrected from null to its default, 30.0. 
+[12:38:19] [Render thread/WARN]: Incorrect key ReactorRodHeatLoss was corrected from null to its default, 25.0. 
+[12:38:19] [Render thread/WARN]: Incorrect key solarPanelHeatMultiplier was corrected from null to its default, 1.0. 
+[12:38:19] [Render thread/WARN]: Incorrect key maxWireLength was corrected from null to its default, 16. 
+[12:38:19] [Render thread/WARN]: Incorrect key Motors was corrected from null to its default, SimpleCommentedConfig:{}. 
+[12:38:19] [Render thread/WARN]: Incorrect key Motors.motorSuMultiplier was corrected from null to its default, 1.0. 
+[12:38:19] [Render thread/WARN]: Incorrect key Motors.basicMotorCapacity was corrected from null to its default, 16000. 
+[12:38:19] [Render thread/WARN]: Incorrect key Motors.advancedMotorCapacity was corrected from null to its default, 64000. 
+[12:38:19] [Render thread/WARN]: Incorrect key Motors.reinforcedMotorCapacity was corrected from null to its default, 128000. 
+[12:38:19] [Render thread/WARN]: Incorrect key Motors.basicMotorSpeed was corrected from null to its default, 128.0. 
+[12:38:19] [Render thread/WARN]: Incorrect key Motors.advancedMotorSpeed was corrected from null to its default, 256.0. 
+[12:38:19] [Render thread/WARN]: Incorrect key Motors.reinforcedMotorSpeed was corrected from null to its default, 256.0. 
+[12:38:19] [Render thread/WARN]: Incorrect key Motors.basicMotorStress was corrected from null to its default, 512.0. 
+[12:38:19] [Render thread/WARN]: Incorrect key Motors.advancedMotorStress was corrected from null to its default, 2048.0. 
+[12:38:19] [Render thread/WARN]: Incorrect key Motors.reinforcedMotorStress was corrected from null to its default, 8192.0. 
+[12:38:19] [Render thread/WARN]: Incorrect key Motor Extensions was corrected from null to its default, SimpleCommentedConfig:{}. 
+[12:38:19] [Render thread/WARN]: Incorrect key Motor Extensions.basicMotorExtensionMultiplier was corrected from null to its default, 2.0. 
+[12:38:19] [Render thread/WARN]: Incorrect key Motor Extensions.advancedMotorExtensionMultiplier was corrected from null to its default, 8.0. 
+[12:38:19] [Render thread/WARN]: Incorrect key Motor Extensions.basicMotorExtensionExtraCapacity was corrected from null to its default, 64000. 
+[12:38:19] [Render thread/WARN]: Incorrect key Motor Extensions.advancedMotorExtensionExtraCapacity was corrected from null to its default, 256000. 
+[12:38:19] [Render thread/WARN]: Incorrect key Motor Extensions.basicMotorExtensionScrollStep was corrected from null to its default, 1. 
+[12:38:19] [Render thread/WARN]: Incorrect key Motor Extensions.advancedMotorExtensionScrollStep was corrected from null to its default, 8. 
+[12:38:19] [Render thread/INFO]: Registering items for Create Deco
+[12:38:19] [Render thread/INFO]: Registering blocks for Create Deco
+[12:38:19] [Render thread/INFO]: Create Deco is accessing Porting Lib on a Fabric client!
+[12:38:20] [Render thread/INFO]: placard tooltip was null
+[12:38:20] [Render thread/INFO]: placard tooltip was null
+[12:38:20] [Render thread/INFO]: placard tooltip was null
+[12:38:20] [Render thread/INFO]: placard tooltip was null
+[12:38:20] [Render thread/INFO]: placard tooltip was null
+[12:38:20] [Render thread/INFO]: placard tooltip was null
+[12:38:20] [Render thread/INFO]: placard tooltip was null
+[12:38:20] [Render thread/INFO]: placard tooltip was null
+[12:38:20] [Render thread/INFO]: placard tooltip was null
+[12:38:20] [Render thread/INFO]: placard tooltip was null
+[12:38:20] [Render thread/INFO]: placard tooltip was null
+[12:38:20] [Render thread/INFO]: placard tooltip was null
+[12:38:20] [Render thread/INFO]: placard tooltip was null
+[12:38:20] [Render thread/INFO]: placard tooltip was null
+[12:38:20] [Render thread/INFO]: placard tooltip was null
+[12:38:20] [Render thread/INFO]: Creating default config file: croptopia_v3.conf
+[12:38:20] [Render thread/INFO]: Hello from Common init on Fabric! we are currently in a production environment!
+[12:38:20] [Render thread/INFO]: The ID for diamonds is minecraft:diamond
+[12:38:20] [Render thread/INFO]: [STDOUT]: Registering pretty much everything for disenchanting_table
+[12:38:20] [Render thread/INFO]: Loading Expanded Ecosphere
+[12:38:22] [Render thread/INFO]: [Expanded Ecosphere Updater] Found no updates
+[12:38:22] [Render thread/ERROR]: No data fixer registered for rotten_tomato
+[12:38:22] [Render thread/INFO]: Initialize mod Library Ferret
+[12:38:22] [Render thread/INFO]: Initialized mod Library Ferret
+[12:38:22] [Render thread/INFO]: Definitely not up to no good
+[12:38:22] [Render thread/INFO]: Giving mobs a fresh coat of paint...
+[12:38:22] [Render thread/ERROR]: Failed to load book betternether:betternether_book defined by mod betternether, skipping
+java.lang.IllegalArgumentException: Book betternether:betternether_book has use_resource_pack set to false. This behaviour was removed in 1.20. The book author should enable this flag and move all book contents clientside to /assets/, leaving the book.json in /data/. See https://vazkiimods.github.io/Patchouli/docs/upgrading/upgrade-guide-120 for details.
+	at vazkii.patchouli.common.book.Book.<init>(Book.java:145) ~[Patchouli-1.20.1-84-FABRIC.jar:?]
+	at vazkii.patchouli.common.book.BookRegistry.loadBook(BookRegistry.java:90) ~[Patchouli-1.20.1-84-FABRIC.jar:?]
+	at vazkii.patchouli.common.book.BookRegistry.lambda$init$3(BookRegistry.java:75) ~[Patchouli-1.20.1-84-FABRIC.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at vazkii.patchouli.common.book.BookRegistry.init(BookRegistry.java:70) ~[Patchouli-1.20.1-84-FABRIC.jar:?]
+	at vazkii.patchouli.fabric.common.FabricModInitializer.onInitialize(FabricModInitializer.java:33) ~[Patchouli-1.20.1-84-FABRIC.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:384) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startClient(Hooks.java:52) ~[fabric-loader-0.15.11.jar:?]
+	at net.minecraft.class_310.<init>(class_310.java:458) ~[client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:211) ~[fabric-loader-0.15.11-1.20.1.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.15.11.jar:?]
+[12:38:23] [Render thread/INFO]: [Regions Unexplored] generating and loading config
+[12:38:23] [Render thread/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[12:38:23] [Render thread/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[12:38:23] [Render thread/INFO]: Registered region regions_unexplored:primary to index 1 for type OVERWORLD
+[12:38:23] [Render thread/INFO]: Registered region regions_unexplored:secondary to index 2 for type OVERWORLD
+[12:38:23] [Render thread/INFO]: Registered region regions_unexplored:nether to index 1 for type NETHER
+[12:38:23] [Render thread/INFO]: [STDOUT]: No config file found. Created new config file for wildlife mod.
+[12:38:23] [Render thread/INFO]: [STDOUT]: Block{minecraft:jukebox}
+[12:38:24] [Render thread/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
+[12:38:24] [Render thread/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
+[12:38:24] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[12:38:24] [Render thread/INFO]: Iris detected.
+[12:38:24] [Worker-Main-1/INFO]: Checking mod updates...
+[12:38:25] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
+[12:38:25] [Render thread/INFO]: OpenGL Vendor: Intel
+[12:38:25] [Render thread/INFO]: OpenGL Renderer: Intel(R) Iris(R) Xe Graphics
+[12:38:25] [Render thread/INFO]: OpenGL Version: 3.2.0 - Build 31.0.101.3413
+[12:38:25] [Render thread/INFO]: Debug functionality is disabled.
+[12:38:25] [Render thread/INFO]: ARB_direct_state_access detected, enabling DSA.
+[12:38:25] [Render thread/INFO]: Shaders are disabled because enableShaders is set to false in iris.properties
+[12:38:25] [Render thread/INFO]: Shaders are disabled
+[12:38:26] [Worker-Main-1/INFO]: Update available for 'mru@0.4.0+1.20', (-> 0.4.2+1.20.1)
+[12:38:26] [Worker-Main-1/INFO]: Update available for 'modmenu@7.2.1', (-> 7.2.2)
+[12:38:26] [Worker-Main-1/INFO]: Update available for 'createdeco@2.0.1-1.20.1-fabric', (-> 2.0.2-1.20.1-fabric)
+[12:38:26] [Worker-Main-1/INFO]: Update available for 'betterdungeons@1.20-Fabric-4.0.3', (-> 1.20-Fabric-4.0.4)
+[12:38:26] [Worker-Main-1/INFO]: Update available for 'skinlayers3d@1.6.4', (-> 1.6.5)
+[12:38:26] [Worker-Main-1/INFO]: Update available for 'create@0.5.1-f-build.1335+mc1.20.1', (-> 0.5.1-f-build.1417+mc1.20.1)
+[12:38:26] [Worker-Main-1/INFO]: Update available for 'betterjungletemples@1.20-Fabric-2.0.4', (-> 1.20-Fabric-2.0.5)
+[12:38:26] [Worker-Main-1/INFO]: Update available for 'resourcefullib@2.1.24', (-> 2.1.25)
+[12:38:26] [Worker-Main-1/INFO]: Update available for 'terralith@2.4.5', (-> 2.5.1)
+[12:38:26] [Worker-Main-1/INFO]: Update available for 'iris@1.6.17', (-> 1.7.0+1.20.1)
+[12:38:26] [Worker-Main-1/INFO]: Update available for 'fabric-api@0.91.0+1.20.1', (-> 0.92.2+1.20.1)
+[12:38:26] [Render thread/INFO]: Hardware information:
+[12:38:26] [Render thread/INFO]: CPU: 8x 11th Gen Intel(R) Core(TM) i7-11370H @ 3.30GHz
+[12:38:26] [Render thread/INFO]: GPU: Intel(R) Iris(R) Xe Graphics (Supports OpenGL 3.2.0 - Build 31.0.101.3413)
+[12:38:26] [Render thread/INFO]: OS: Windows 11 (10.0)
+[12:38:27] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric (aqupdgrizzly, awesomedungeon, bclib, betterdeserttemples, betterdungeons, betterend, betterendisland, betterfortresses, betterfpsdist, betterjungletemples, bettermineshafts, betternether, betteroceanmonuments, cardinal-components-base, cardinal-components-entity, cloth-config, completeconfig-base, create, create_new_age, createdeco, cristellib, croptopia, disenchanting_table, dripstone_fluid_lib, epherolib, expanded_ecosphere, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-tables-v1, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-networking-v0, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, farmersdelight, flywheel, forgeconfigapiport, geckolib, indium, iris, libraryferret, midnightlib, milk, mm, modmenu, moremobvariants, naturalist, patchouli, porting_lib_accessors, porting_lib_attributes, porting_lib_base, porting_lib_client_events, porting_lib_common, porting_lib_config, porting_lib_core, porting_lib_data, porting_lib_entity, porting_lib_extensions, porting_lib_fluids, porting_lib_gametest, porting_lib_lazy_registration, porting_lib_loot, porting_lib_mixin_extensions, porting_lib_model_generators, porting_lib_model_materials, porting_lib_networking, porting_lib_recipe_book_categories, porting_lib_registries, porting_lib_tags, porting_lib_tool_actions, porting_lib_transfer, porting_lib_utility, reach-entity-attributes, regions_unexplored, registrate-fabric, skinlayers3d, sodium, team_reborn_energy, terrablender, terralith, trinkets, wildlife, woof)
+[12:38:27] [Worker-Main-6/INFO]: Found unifont_all_no_pua-15.0.06.hex, loading
+[12:38:27] [Render thread/WARN]: Config cupboard.json not found, recreating default
+[12:38:27] [Render thread/INFO]: Loaded config for: cupboard.json
+[12:38:27] [Render thread/WARN]: Config betterfpsdist.json not found, recreating default
+[12:38:27] [Render thread/INFO]: Loaded config for: betterfpsdist.json
+[12:38:28] [Worker-Main-7/WARN]: Texture wildlife:item/jellyfish5 with size 32x8 limits mip level from 4 to 3
+[12:38:28] [Worker-Main-7/WARN]: minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 3, because of minimum power of two: 8
+[12:38:30] [Render thread/INFO]: [System] [CHAT] Saved screenshot as 2024-05-30_12.38.30.png
+[12:38:34] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[12:38:34] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[12:38:34] [Render thread/WARN]: Missing sound for event: naturalist:rubber_ducky_death
+[12:38:34] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Altavoces (SteelSeries Arctis 1 Wireless)
+[12:38:34] [Render thread/INFO]: Sound engine started
+[12:38:34] [Render thread/INFO]: Created: 2048x2048x3 minecraft:textures/atlas/blocks.png-atlas
+[12:38:34] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/signs.png-atlas
+[12:38:34] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[12:38:34] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[12:38:34] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[12:38:34] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[12:38:34] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/chest.png-atlas
+[12:38:34] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[12:38:34] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[12:38:35] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[12:38:36] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[12:38:36] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[12:38:36] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[12:38:36] [Render thread/INFO]: Loaded all shader sources.
+[12:38:36] [Render thread/INFO]: BookContentResourceListenerLoader preloaded 793 jsons
+[12:38:57] [Thread-5/INFO]: [bclib] Check Versions for minecraft=1_20_1
+[12:38:57] [Thread-5/INFO]: [bclib] Received Version Info for minecraft=1.20.1, loader=fabric
+[12:38:57] [Thread-5/INFO]: [bclib]  - bclib:3.0.14
+[12:38:57] [Thread-5/INFO]: [bclib]  - betterend:4.0.11
+[12:38:57] [Thread-5/INFO]: [bclib]  - betternether:9.0.10
+[12:39:04] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric (aqupdgrizzly, awesomedungeon, bclib, betterdeserttemples, betterdungeons, betterend, betterendisland, betterfortresses, betterfpsdist, betterjungletemples, bettermineshafts, betternether, betteroceanmonuments, cardinal-components-base, cardinal-components-entity, cloth-config, completeconfig-base, create, create_new_age, createdeco, cristellib, croptopia, disenchanting_table, dripstone_fluid_lib, epherolib, expanded_ecosphere, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-tables-v1, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-networking-v0, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, farmersdelight, flywheel, forgeconfigapiport, geckolib, indium, iris, libraryferret, midnightlib, milk, mm, modmenu, moremobvariants, naturalist, patchouli, porting_lib_accessors, porting_lib_attributes, porting_lib_base, porting_lib_client_events, porting_lib_common, porting_lib_config, porting_lib_core, porting_lib_data, porting_lib_entity, porting_lib_extensions, porting_lib_fluids, porting_lib_gametest, porting_lib_lazy_registration, porting_lib_loot, porting_lib_mixin_extensions, porting_lib_model_generators, porting_lib_model_materials, porting_lib_networking, porting_lib_recipe_book_categories, porting_lib_registries, porting_lib_tags, porting_lib_tool_actions, porting_lib_transfer, porting_lib_utility, reach-entity-attributes, regions_unexplored, registrate-fabric, skinlayers3d, sodium, team_reborn_energy, terrablender, terralith, trinkets, wildlife, woof)
+[12:39:04] [Worker-Main-6/INFO]: Found unifont_all_no_pua-15.0.06.hex, loading
+[12:39:04] [Worker-Main-2/WARN]: Texture wildlife:item/jellyfish5 with size 32x8 limits mip level from 4 to 3
+[12:39:04] [Worker-Main-2/WARN]: minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 3, because of minimum power of two: 8
+[12:39:10] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[12:39:10] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[12:39:10] [Render thread/WARN]: Missing sound for event: naturalist:rubber_ducky_death
+[12:39:10] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Altavoces (SteelSeries Arctis 1 Wireless)
+[12:39:10] [Render thread/INFO]: Sound engine started
+[12:39:10] [Render thread/INFO]: Created: 2048x2048x3 minecraft:textures/atlas/blocks.png-atlas
+[12:39:11] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/signs.png-atlas
+[12:39:11] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[12:39:11] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[12:39:11] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[12:39:11] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[12:39:11] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/chest.png-atlas
+[12:39:11] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[12:39:11] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[12:39:11] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[12:39:12] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[12:39:12] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[12:39:12] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[12:39:12] [Render thread/INFO]: Loaded all shader sources.
+[12:39:12] [Render thread/INFO]: BookContentResourceListenerLoader preloaded 793 jsons
+[12:39:15] [Render thread/INFO]: Creating pipeline for dimension NamespacedId{namespace='minecraft', name='overworld'}
+[12:40:31] [Render thread/INFO]: Flushed changes to Minecraft configuration
+[12:40:59] [Render thread/INFO]: Flushed changes to Minecraft configuration
+[12:41:05] [Render thread/INFO]: Destroying pipeline NamespacedId{namespace='minecraft', name='overworld'}
+[12:41:05] [Render thread/WARN]: Tried to get boolean value for unknown option: 1, defaulting to true!
+[12:41:05] [Render thread/WARN]: Tried to get boolean value for unknown option: 1, defaulting to true!
+[12:41:05] [Render thread/WARN]: Tried to get boolean value for unknown option: 1, defaulting to true!
+[12:41:05] [Render thread/INFO]: Profile: HIGH (+0 options changed by user)
+[12:41:06] [Render thread/INFO]: Using shaderpack: ComplementaryShaders_v4.7.2.zip
+[12:41:28] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric (aqupdgrizzly, awesomedungeon, bclib, betterdeserttemples, betterdungeons, betterend, betterendisland, betterfortresses, betterfpsdist, betterjungletemples, bettermineshafts, betternether, betteroceanmonuments, cardinal-components-base, cardinal-components-entity, cloth-config, completeconfig-base, create, create_new_age, createdeco, cristellib, croptopia, disenchanting_table, dripstone_fluid_lib, epherolib, expanded_ecosphere, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-tables-v1, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-networking-v0, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, farmersdelight, flywheel, forgeconfigapiport, geckolib, indium, iris, libraryferret, midnightlib, milk, mm, modmenu, moremobvariants, naturalist, patchouli, porting_lib_accessors, porting_lib_attributes, porting_lib_base, porting_lib_client_events, porting_lib_common, porting_lib_config, porting_lib_core, porting_lib_data, porting_lib_entity, porting_lib_extensions, porting_lib_fluids, porting_lib_gametest, porting_lib_lazy_registration, porting_lib_loot, porting_lib_mixin_extensions, porting_lib_model_generators, porting_lib_model_materials, porting_lib_networking, porting_lib_recipe_book_categories, porting_lib_registries, porting_lib_tags, porting_lib_tool_actions, porting_lib_transfer, porting_lib_utility, reach-entity-attributes, regions_unexplored, registrate-fabric, skinlayers3d, sodium, team_reborn_energy, terrablender, terralith, trinkets, wildlife, woof)
+[12:41:28] [Worker-Main-2/INFO]: Found unifont_all_no_pua-15.0.06.hex, loading
+[12:41:28] [Worker-Main-9/WARN]: Texture wildlife:item/jellyfish5 with size 32x8 limits mip level from 4 to 3
+[12:41:28] [Worker-Main-9/WARN]: minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 3, because of minimum power of two: 8
+[12:41:33] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[12:41:33] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[12:41:33] [Render thread/WARN]: Missing sound for event: naturalist:rubber_ducky_death
+[12:41:33] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Altavoces (SteelSeries Arctis 1 Wireless)
+[12:41:33] [Render thread/INFO]: Sound engine started
+[12:41:33] [Render thread/INFO]: Created: 2048x2048x3 minecraft:textures/atlas/blocks.png-atlas
+[12:41:34] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/signs.png-atlas
+[12:41:34] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[12:41:34] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[12:41:34] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[12:41:34] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[12:41:34] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/chest.png-atlas
+[12:41:34] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[12:41:34] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[12:41:34] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[12:41:34] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[12:41:35] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[12:41:35] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[12:41:35] [Render thread/INFO]: Loaded all shader sources.
+[12:41:35] [Render thread/INFO]: BookContentResourceListenerLoader preloaded 793 jsons
+[12:42:01] [Render thread/INFO]: [bclib] Did not manage biome betterend:empty_aurora_cave
+[12:42:01] [Render thread/INFO]: [bclib] Did not manage biome betterend:empty_end_cave
+[12:42:01] [Render thread/INFO]: [bclib] Did not manage biome betterend:empty_smaragdant_cave
+[12:42:01] [Render thread/INFO]: [bclib] Did not manage biome betterend:jade_cave
+[12:42:01] [Render thread/INFO]: [bclib] Did not manage biome betterend:lush_aurora_cave
+[12:42:01] [Render thread/INFO]: [bclib] Did not manage biome betterend:lush_smaragdant_cave
+[12:42:01] [Render thread/INFO]: [bclib] Did not manage biome betterend:megalake_grove
+[12:42:01] [Render thread/INFO]: [bclib] Did not manage biome betterend:neon_oasis
+[12:42:01] [Render thread/INFO]: [bclib] Did not manage biome betterend:painted_mountains
+[12:42:01] [Render thread/INFO]: Structure placement for `awesomedungeon:abandoned_oak_palace/start_pool`: { spacing: 50, separation: 25, salt: 1694767080, useValueFromConfiguration: true}
+[12:42:01] [Render thread/INFO]: Structure placement for `awesomedungeon:better_default_jungle_temple/start_pool`: { spacing: 50, separation: 25, salt: 1654787080, useValueFromConfiguration: true}
+[12:42:01] [Render thread/INFO]: Structure placement for `awesomedungeon:desert_temple_husk/start_pool`: { spacing: 50, separation: 25, salt: 1394767080, useValueFromConfiguration: true}
+[12:42:01] [Render thread/INFO]: Structure placement for `awesomedungeon:jungle_giant_tree/start_pool`: { spacing: 50, separation: 25, salt: 1494763380, useValueFromConfiguration: true}
+[12:42:01] [Render thread/INFO]: Structure placement for `awesomedungeon:mushroom_abandonned/start_pool`: { spacing: 50, separation: 25, salt: 1494227080, useValueFromConfiguration: true}
+[12:42:01] [Render thread/INFO]: Structure placement for `awesomedungeon:swamp_big_temple/start_pool`: { spacing: 50, separation: 25, salt: 1594763280, useValueFromConfiguration: true}
+[12:42:01] [Render thread/INFO]: Structure placement for `awesomedungeon:the_usine/start_pool`: { spacing: 50, separation: 25, salt: 1694767078, useValueFromConfiguration: true}
+[12:42:01] [Render thread/INFO]: Structure placement for `awesomedungeon:t_z_tower/start_pool`: { spacing: 50, separation: 25, salt: 1794767078, useValueFromConfiguration: true}
+[12:42:01] [Render thread/INFO]: Structure placement for `awesomedungeon:witch_castle/start_pool`: { spacing: 50, separation: 25, salt: 1894776078, useValueFromConfiguration: true}
+[12:42:02] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (2f9df3a2)
+[12:42:02] [Render thread/INFO]: [bclib] Unable to build Biome List yet
+[12:42:02] [Render thread/INFO]: [bclib] No Void Biomes found. Disabling by using barrens
+[12:42:02] [Render thread/INFO]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[12:42:02] [Render thread/WARN]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[12:42:02] [Render thread/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibEndBiomeSource
+[12:42:02] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (54de742a)
+[12:42:02] [Render thread/INFO]: [bclib] Unable to build Biome List yet
+[12:42:02] [Render thread/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibNetherBiomeSource
+[12:42:02] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (1f99e621)
+[12:42:02] [Render thread/INFO]: [bclib] Unable to build Biome List yet
+[12:42:02] [Render thread/INFO]: [bclib] No Void Biomes found. Disabling by using barrens
+[12:42:02] [Render thread/INFO]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[12:42:02] [Render thread/WARN]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[12:42:02] [Render thread/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibEndBiomeSource
+[12:42:02] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (74f13262)
+[12:42:02] [Render thread/INFO]: [bclib] Unable to build Biome List yet
+[12:42:02] [Render thread/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibNetherBiomeSource
+[12:42:02] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (62a5c58b)
+[12:42:02] [Render thread/INFO]: [bclib] Unable to build Biome List yet
+[12:42:02] [Render thread/INFO]: [bclib] No Void Biomes found. Disabling by using barrens
+[12:42:02] [Render thread/INFO]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[12:42:02] [Render thread/WARN]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[12:42:02] [Render thread/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibEndBiomeSource
+[12:42:02] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (4c8972dc)
+[12:42:02] [Render thread/INFO]: [bclib] Unable to build Biome List yet
+[12:42:02] [Render thread/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibNetherBiomeSource
+[12:42:02] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (14d78369)
+[12:42:02] [Render thread/INFO]: [bclib] Unable to build Biome List yet
+[12:42:02] [Render thread/INFO]: [bclib] No Void Biomes found. Disabling by using barrens
+[12:42:02] [Render thread/INFO]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[12:42:02] [Render thread/WARN]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[12:42:02] [Render thread/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibEndBiomeSource
+[12:42:02] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (5c6cb753)
+[12:42:02] [Render thread/INFO]: [bclib] Unable to build Biome List yet
+[12:42:02] [Render thread/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibNetherBiomeSource
+[12:42:02] [Render thread/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[12:42:02] [Render thread/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[12:42:02] [Render thread/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[12:42:02] [Render thread/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[12:42:02] [Render thread/WARN]: [bclib] No valid BCLBiome Registry available!
+[12:42:02] [Render thread/WARN]: [bclib] No valid Biome Registry available!
+[12:42:02] [Render thread/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[12:42:02] [Render thread/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[12:42:03] [Render thread/INFO]: [bclib] Disabling Recipe: bclib:test_star
+[12:42:03] [Render thread/INFO]: Loaded 28 recipes
+[12:42:03] [Render thread/INFO]: Loaded 6215 advancements
+[12:42:03] [Render thread/INFO]: Reloading config...
+[12:42:07] [Render thread/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[12:42:21] [Render thread/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[12:42:21] [Render thread/INFO]: [DataFixerAPI] Applying Patch{betternether:5.3.5:21020677}
+[12:42:21] [Render thread/INFO]: [DataFixerAPI] Applying Patch{betternether:8.2.2:33587202}
+[12:42:21] [Render thread/INFO]: [DataFixerAPI] Applying Patch{betternether:9.0.1:37748737}
+[12:42:21] [Render thread/INFO]: [DataFixerAPI] Applying Patch{bclib:3.0.11:12582923}
+[12:42:21] [Render thread/INFO]: [DataFixerAPI] Updating Patch-Level for 'betternether' from 0.0.0 to 9.0.1
+[12:42:21] [Render thread/INFO]: [DataFixerAPI] Updating Patch-Level for 'bclib' from 0.0.0 to 3.0.11
+[12:42:21] [Render thread/ERROR]: [worlds_together] Error for jar:file:///C:/Users/arube/Desktop/Mods/overrides/mods/the_dirty_stuff-2.1-forge-1.20.1.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[12:42:21] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (50ea43f2)
+[12:42:21] [Render thread/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibNetherBiomeSource
+[12:42:21] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (7285c726)
+[12:42:21] [Render thread/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibEndBiomeSource
+[12:42:21] [Render thread/INFO]: [bclib] Enforcing Correct Generator for minecraft:the_end.
+[12:42:21] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (7285c726)
+[12:42:21] [Render thread/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibEndBiomeSource
+[12:42:21] [Render thread/INFO]: [bclib] Enforcing Correct Generator for minecraft:the_nether.
+[12:42:21] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (50ea43f2)
+[12:42:21] [Render thread/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibNetherBiomeSource
+[12:42:21] [Render thread/INFO]: [worlds_together] Loading originally configured Dimensions in World.
+[12:42:21] [Render thread/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[12:42:22] [Render thread/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[12:42:22] [Render thread/INFO]: Applied 6937 biome modifications to 472 of 472 new biomes in 121.0 ms
+[12:42:22] [Render thread/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[12:42:22] [Server thread/WARN]: Configuration file C:\Users\arube\Desktop\Mods\overrides\config\create-server.toml is not correct. Correcting
+[12:42:22] [Server thread/WARN]: Incorrect key infrastructure was corrected from null to its default, SimpleCommentedConfig:{}. 
+[12:42:22] [Server thread/WARN]: Incorrect key infrastructure.tickrateSyncTimer was corrected from null to its default, 20. 
+[12:42:22] [Server thread/WARN]: Incorrect key recipes was corrected from null to its default, SimpleCommentedConfig:{}. 
+[12:42:22] [Server thread/WARN]: Incorrect key recipes.bulkPressing was corrected from null to its default, false. 
+[12:42:22] [Server thread/WARN]: Incorrect key recipes.bulkCutting was corrected from null to its default, false. 
+[12:42:22] [Server thread/WARN]: Incorrect key recipes.allowBrewingInMixer was corrected from null to its default, true. 
+[12:42:22] [Server thread/WARN]: Incorrect key recipes.allowShapelessInMixer was corrected from null to its default, true. 
+[12:42:22] [Server thread/WARN]: Incorrect key recipes.allowShapedSquareInPress was corrected from null to its default, true. 
+[12:42:22] [Server thread/WARN]: Incorrect key recipes.allowRegularCraftingInCrafter was corrected from null to its default, true. 
+[12:42:22] [Server thread/WARN]: Incorrect key recipes.maxFireworkIngredientsInCrafter was corrected from null to its default, 9. 
+[12:42:22] [Server thread/WARN]: Incorrect key recipes.allowStonecuttingOnSaw was corrected from null to its default, true. 
+[12:42:22] [Server thread/WARN]: Incorrect key recipes.allowWoodcuttingOnSaw was corrected from null to its default, true. 
+[12:42:22] [Server thread/WARN]: Incorrect key recipes.allowCastingBySpout was corrected from null to its default, true. 
+[12:42:22] [Server thread/WARN]: Incorrect key recipes.allowFillingBySpout was corrected from null to its default, true. 
+[12:42:22] [Server thread/WARN]: Incorrect key recipes.displayLogStrippingRecipes was corrected from null to its default, true. 
+[12:42:22] [Server thread/WARN]: Incorrect key recipes.lightSourceCountForRefinedRadiance was corrected from null to its default, 10. 
+[12:42:22] [Server thread/WARN]: Incorrect key recipes.enableRefinedRadianceRecipe was corrected from null to its default, true. 
+[12:42:22] [Server thread/WARN]: Incorrect key recipes.enableShadowSteelRecipe was corrected from null to its default, true. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics was corrected from null to its default, SimpleCommentedConfig:{}. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.disableStress was corrected from null to its default, false. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.maxBeltLength was corrected from null to its default, 20. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.crushingDamage was corrected from null to its default, 4. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.maxRotationSpeed was corrected from null to its default, 256. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.ignoreDeployerAttacks was corrected from null to its default, CREEPERS. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.kineticValidationFrequency was corrected from null to its default, 60. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.crankHungerMultiplier was corrected from null to its default, 0.009999999776482582. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.minimumWindmillSails was corrected from null to its default, 8. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.windmillSailsPerRPM was corrected from null to its default, 8. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.maxEjectorDistance was corrected from null to its default, 32. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.ejectorScanInterval was corrected from null to its default, 120. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.encasedFan was corrected from null to its default, SimpleCommentedConfig:{}. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.encasedFan.fanPushDistance was corrected from null to its default, 20. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.encasedFan.fanPullDistance was corrected from null to its default, 20. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.encasedFan.fanBlockCheckRate was corrected from null to its default, 30. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.encasedFan.fanRotationArgmax was corrected from null to its default, 256. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.encasedFan.fanProcessingTime was corrected from null to its default, 150. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.contraptions was corrected from null to its default, SimpleCommentedConfig:{}. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.contraptions.maxBlocksMoved was corrected from null to its default, 2048. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.contraptions.maxDataSize was corrected from null to its default, 2000000. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.contraptions.maxChassisRange was corrected from null to its default, 16. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.contraptions.maxPistonPoles was corrected from null to its default, 64. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.contraptions.maxRopeLength was corrected from null to its default, 256. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.contraptions.maxCartCouplingLength was corrected from null to its default, 32. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.contraptions.rollerFillDepth was corrected from null to its default, 12. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.contraptions.survivalContraptionPickup was corrected from null to its default, true. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.contraptions.contraptionPlacing was corrected from null to its default, true. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.contraptions.movableSpawners was corrected from null to its default, NO_PICKUP. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.contraptions.amethystMovement was corrected from null to its default, NO_PICKUP. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.contraptions.movableObsidian was corrected from null to its default, UNMOVABLE. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.contraptions.movableReinforcedDeepslate was corrected from null to its default, UNMOVABLE. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.contraptions.moveItemsToStorage was corrected from null to its default, true. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.contraptions.harvestPartiallyGrown was corrected from null to its default, false. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.contraptions.harvesterReplants was corrected from null to its default, true. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.contraptions.minecartContraptionInContainers was corrected from null to its default, false. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stats was corrected from null to its default, SimpleCommentedConfig:{}. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stats.mediumSpeed was corrected from null to its default, 30.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stats.fastSpeed was corrected from null to its default, 100.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stats.mediumStressImpact was corrected from null to its default, 4.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stats.highStressImpact was corrected from null to its default, 8.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stats.mediumCapacity was corrected from null to its default, 256.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stats.highCapacity was corrected from null to its default, 1024.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues was corrected from null to its default, SimpleCommentedConfig:{}. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2 was corrected from null to its default, SimpleCommentedConfig:{}. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact was corrected from null to its default, SimpleCommentedConfig:{}. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.display_board was corrected from null to its default, 0.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.deployer was corrected from null to its default, 4.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_piston was corrected from null to its default, 4.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.millstone was corrected from null to its default, 4.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_bearing was corrected from null to its default, 4.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.clockwork_bearing was corrected from null to its default, 4.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.cuckoo_clock was corrected from null to its default, 1.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.speedometer was corrected from null to its default, 0.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.copper_backtank was corrected from null to its default, 4.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_saw was corrected from null to its default, 4.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.flywheel was corrected from null to its default, 0.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.encased_chain_drive was corrected from null to its default, 0.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.clutch was corrected from null to its default, 0.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.encased_fan was corrected from null to its default, 2.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.adjustable_chain_gearshift was corrected from null to its default, 0.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_pump was corrected from null to its default, 4.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.crushing_wheel was corrected from null to its default, 8.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_mixer was corrected from null to its default, 4.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.gantry_shaft was corrected from null to its default, 0.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.rope_pulley was corrected from null to its default, 4.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.rotation_speed_controller was corrected from null to its default, 0.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_arm was corrected from null to its default, 2.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.netherite_backtank was corrected from null to its default, 4.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.andesite_encased_shaft was corrected from null to its default, 0.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_press was corrected from null to its default, 8.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.large_cogwheel was corrected from null to its default, 0.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_drill was corrected from null to its default, 4.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.andesite_encased_large_cogwheel was corrected from null to its default, 0.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.brass_encased_large_cogwheel was corrected from null to its default, 0.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mysterious_cuckoo_clock was corrected from null to its default, 1.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.stressometer was corrected from null to its default, 0.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.shaft was corrected from null to its default, 0.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.brass_encased_shaft was corrected from null to its default, 0.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.gearshift was corrected from null to its default, 0.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.turntable was corrected from null to its default, 4.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.sticky_mechanical_piston was corrected from null to its default, 4.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.sequenced_gearshift was corrected from null to its default, 0.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.weighted_ejector was corrected from null to its default, 2.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.cogwheel was corrected from null to its default, 0.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.andesite_encased_cogwheel was corrected from null to its default, 0.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.belt was corrected from null to its default, 0.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.brass_encased_cogwheel was corrected from null to its default, 0.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.gearbox was corrected from null to its default, 0.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.hose_pulley was corrected from null to its default, 4.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.elevator_pulley was corrected from null to its default, 4.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_crafter was corrected from null to its default, 2.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity was corrected from null to its default, SimpleCommentedConfig:{}. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.copper_valve_handle was corrected from null to its default, 8.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.hand_crank was corrected from null to its default, 8.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.steam_engine was corrected from null to its default, 1024.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.creative_motor was corrected from null to its default, 16384.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.large_water_wheel was corrected from null to its default, 128.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.water_wheel was corrected from null to its default, 32.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.windmill_bearing was corrected from null to its default, 512.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key fluids was corrected from null to its default, SimpleCommentedConfig:{}. 
+[12:42:22] [Server thread/WARN]: Incorrect key fluids.fluidTankCapacity was corrected from null to its default, 8. 
+[12:42:22] [Server thread/WARN]: Incorrect key fluids.fluidTankMaxHeight was corrected from null to its default, 32. 
+[12:42:22] [Server thread/WARN]: Incorrect key fluids.mechanicalPumpRange was corrected from null to its default, 16. 
+[12:42:22] [Server thread/WARN]: Incorrect key fluids.hosePulleyRange was corrected from null to its default, 128. 
+[12:42:22] [Server thread/WARN]: Incorrect key fluids.hosePulleyBlockThreshold was corrected from null to its default, 10000. 
+[12:42:22] [Server thread/WARN]: Incorrect key fluids.fillInfinite was corrected from null to its default, false. 
+[12:42:22] [Server thread/WARN]: Incorrect key fluids.bottomlessFluidMode was corrected from null to its default, ALLOW_BY_TAG. 
+[12:42:22] [Server thread/WARN]: Incorrect key fluids.fluidFillPlaceFluidSourceBlocks was corrected from null to its default, true. 
+[12:42:22] [Server thread/WARN]: Incorrect key fluids.pipesPlaceFluidSourceBlocks was corrected from null to its default, true. 
+[12:42:22] [Server thread/WARN]: Incorrect key logistics was corrected from null to its default, SimpleCommentedConfig:{}. 
+[12:42:22] [Server thread/WARN]: Incorrect key logistics.defaultExtractionTimer was corrected from null to its default, 8. 
+[12:42:22] [Server thread/WARN]: Incorrect key logistics.psiTimeout was corrected from null to its default, 60. 
+[12:42:22] [Server thread/WARN]: Incorrect key logistics.mechanicalArmRange was corrected from null to its default, 5. 
+[12:42:22] [Server thread/WARN]: Incorrect key logistics.linkRange was corrected from null to its default, 256. 
+[12:42:22] [Server thread/WARN]: Incorrect key logistics.displayLinkRange was corrected from null to its default, 64. 
+[12:42:22] [Server thread/WARN]: Incorrect key logistics.vaultCapacity was corrected from null to its default, 20. 
+[12:42:22] [Server thread/WARN]: Incorrect key logistics.brassTunnelTimer was corrected from null to its default, 10. 
+[12:42:22] [Server thread/WARN]: Incorrect key logistics.seatHostileMobs was corrected from null to its default, true. 
+[12:42:22] [Server thread/WARN]: Incorrect key schematics was corrected from null to its default, SimpleCommentedConfig:{}. 
+[12:42:22] [Server thread/WARN]: Incorrect key schematics.creativePrintIncludesAir was corrected from null to its default, false. 
+[12:42:22] [Server thread/WARN]: Incorrect key schematics.maxSchematics was corrected from null to its default, 256. 
+[12:42:22] [Server thread/WARN]: Incorrect key schematics.maxSchematicPacketSize was corrected from null to its default, 1024. 
+[12:42:22] [Server thread/WARN]: Incorrect key schematics.schematicIdleTimeout was corrected from null to its default, 600. 
+[12:42:22] [Server thread/WARN]: Incorrect key schematics.schematicannon was corrected from null to its default, SimpleCommentedConfig:{}. 
+[12:42:22] [Server thread/WARN]: Incorrect key schematics.schematicannon.schematicannonDelay was corrected from null to its default, 10. 
+[12:42:22] [Server thread/WARN]: Incorrect key schematics.schematicannon.schematicannonGunpowderWorth was corrected from null to its default, 20.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key schematics.schematicannon.schematicannonFuelUsage was corrected from null to its default, 0.05000000074505806. 
+[12:42:22] [Server thread/WARN]: Incorrect key equipment was corrected from null to its default, SimpleCommentedConfig:{}. 
+[12:42:22] [Server thread/WARN]: Incorrect key equipment.maxSymmetryWandRange was corrected from null to its default, 50. 
+[12:42:22] [Server thread/WARN]: Incorrect key equipment.placementAssistRange was corrected from null to its default, 12. 
+[12:42:22] [Server thread/WARN]: Incorrect key equipment.toolboxRange was corrected from null to its default, 10. 
+[12:42:22] [Server thread/WARN]: Incorrect key equipment.airInBacktank was corrected from null to its default, 900. 
+[12:42:22] [Server thread/WARN]: Incorrect key equipment.enchantedBacktankCapacity was corrected from null to its default, 300. 
+[12:42:22] [Server thread/WARN]: Incorrect key equipment.maxExtendoGripActions was corrected from null to its default, 1000. 
+[12:42:22] [Server thread/WARN]: Incorrect key equipment.maxPotatoCannonShots was corrected from null to its default, 200. 
+[12:42:22] [Server thread/WARN]: Incorrect key equipment.potatoCannonWorldModification was corrected from null to its default, true. 
+[12:42:22] [Server thread/WARN]: Incorrect key trains was corrected from null to its default, SimpleCommentedConfig:{}. 
+[12:42:22] [Server thread/WARN]: Incorrect key trains.trainsCauseDamage was corrected from null to its default, true. 
+[12:42:22] [Server thread/WARN]: Incorrect key trains.maxTrackPlacementLength was corrected from null to its default, 32. 
+[12:42:22] [Server thread/WARN]: Incorrect key trains.maxAssemblyLength was corrected from null to its default, 128. 
+[12:42:22] [Server thread/WARN]: Incorrect key trains.maxBogeyCount was corrected from null to its default, 20. 
+[12:42:22] [Server thread/WARN]: Incorrect key trains.manualTrainSpeedModifier was corrected from null to its default, 0.75. 
+[12:42:22] [Server thread/WARN]: Incorrect key trains.trainStats was corrected from null to its default, SimpleCommentedConfig:{}. 
+[12:42:22] [Server thread/WARN]: Incorrect key trains.trainStats.trainTopSpeed was corrected from null to its default, 28.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key trains.trainStats.trainTurningTopSpeed was corrected from null to its default, 14.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key trains.trainStats.trainAcceleration was corrected from null to its default, 3.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key trains.poweredTrainStats was corrected from null to its default, SimpleCommentedConfig:{}. 
+[12:42:22] [Server thread/WARN]: Incorrect key trains.poweredTrainStats.poweredTrainTopSpeed was corrected from null to its default, 40.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key trains.poweredTrainStats.poweredTrainTurningTopSpeed was corrected from null to its default, 20.0. 
+[12:42:22] [Server thread/WARN]: Incorrect key trains.poweredTrainStats.poweredTrainAcceleration was corrected from null to its default, 3.0. 
+[12:42:22] [Server thread/INFO]: Starting integrated minecraft server version 1.20.1
+[12:42:22] [Server thread/INFO]: Generating keypair
+[12:42:22] [Server thread/INFO]: [bclib] 
+Apply Modifications for minecraft:the_end
+    BCLib - The End  BiomeSource (7285c726)
+        biomes     = 24
+        namespaces = betterend(19), minecraft(5)
+        seed       = 0
+        height     = 128
+        deciders   = 0
+        config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+[12:42:22] [Server thread/INFO]: [bclib] 
+Apply Modifications for minecraft:overworld
+    class_4766 (423c0c0e)
+        biomes     = 307
+        namespaces = wythers(188), minecraft(53), regions_unexplored(66)
+[12:42:22] [Server thread/INFO]: [bclib] 
+Apply Modifications for minecraft:the_nether
+    BCLib - Nether BiomeSource (50ea43f2)
+        biomes     = 32
+        namespaces = betternether(22), minecraft(5), regions_unexplored(5)
+        seed       = 0
+        height     = 128
+        config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+[12:42:22] [Server thread/INFO]: [bclib] World Dimensions: 
+ - minecraft:the_end: 
+     BCLib - Chunk Generator (6e92f838) 
+     BCLib - The End  BiomeSource (7285c726)
+         biomes     = 24
+         namespaces = betterend(19), minecraft(5)
+         seed       = 0
+         height     = 128
+         deciders   = 0
+         config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+ - minecraft:overworld: 
+     net.minecraft.class_3754@5b0dd0c8 
+     class_4766 (423c0c0e)
+         biomes     = 307
+         namespaces = wythers(188), minecraft(53), regions_unexplored(66)
+ - minecraft:the_nether: 
+     BCLib - Chunk Generator (684ba562) 
+     BCLib - Nether BiomeSource (50ea43f2)
+         biomes     = 32
+         namespaces = betternether(22), minecraft(5), regions_unexplored(5)
+         seed       = 0
+         height     = 128
+         config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+[12:42:22] [Server thread/INFO]: [bclib] Merged 19 additional Surface Rules for 
+BCLib - The End  BiomeSource (7285c726)
+    biomes     = 24
+    namespaces = betterend(19), minecraft(5)
+    seed       = 0
+    height     = 128
+    deciders   = 0
+    config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256} => 20
+[12:42:22] [Server thread/INFO]: [bclib] Merged 22 additional Surface Rules for 
+BCLib - Nether BiomeSource (50ea43f2)
+    biomes     = 32
+    namespaces = betternether(22), minecraft(5), regions_unexplored(5)
+    seed       = 0
+    height     = 128
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86} => 74
+[12:42:28] [Server thread/INFO]: Loading dimension "minecraft:the_nether" with biome source: "bclib:nether_biome_source".
+[12:42:28] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:42:28] [Render thread/INFO]: Preparando zona de aparición: 0 %
+[12:42:29] [Render thread/INFO]: Preparando zona de aparición: 0 %
+[12:42:29] [Render thread/INFO]: Preparando zona de aparición: 0 %
+[12:42:29] [Render thread/INFO]: Preparando zona de aparición: 0 %
+[12:42:30] [Render thread/INFO]: Preparando zona de aparición: 0 %
+[12:42:30] [Render thread/INFO]: Preparando zona de aparición: 1 %
+[12:42:31] [Render thread/INFO]: Preparando zona de aparición: 1 %
+[12:42:31] [Render thread/INFO]: Preparando zona de aparición: 2 %
+[12:42:32] [Render thread/INFO]: Preparando zona de aparición: 2 %
+[12:42:32] [Render thread/INFO]: Preparando zona de aparición: 3 %
+[12:42:33] [Render thread/INFO]: Preparando zona de aparición: 4 %
+[12:42:34] [Render thread/INFO]: Preparando zona de aparición: 5 %
+[12:42:34] [Render thread/INFO]: Preparando zona de aparición: 5 %
+[12:42:34] [Render thread/INFO]: Preparando zona de aparición: 5 %
+[12:42:35] [Render thread/INFO]: Preparando zona de aparición: 7 %
+[12:42:35] [Render thread/INFO]: Preparando zona de aparición: 8 %
+[12:42:36] [Render thread/INFO]: Preparando zona de aparición: 9 %
+[12:42:36] [Render thread/INFO]: Preparando zona de aparición: 9 %
+[12:42:37] [Render thread/INFO]: Preparando zona de aparición: 10 %
+[12:42:37] [Render thread/INFO]: Preparando zona de aparición: 10 %
+[12:42:38] [Render thread/INFO]: Preparando zona de aparición: 13 %
+[12:42:38] [Render thread/INFO]: Preparando zona de aparición: 14 %
+[12:42:39] [Render thread/INFO]: Preparando zona de aparición: 15 %
+[12:42:39] [Render thread/INFO]: Preparando zona de aparición: 16 %
+[12:42:40] [Render thread/INFO]: Preparando zona de aparición: 17 %
+[12:42:40] [Render thread/INFO]: Preparando zona de aparición: 18 %
+[12:42:41] [Render thread/INFO]: Preparando zona de aparición: 21 %
+[12:42:41] [Render thread/INFO]: Preparando zona de aparición: 22 %
+[12:42:42] [Render thread/INFO]: Preparando zona de aparición: 23 %
+[12:42:42] [Render thread/INFO]: Preparando zona de aparición: 24 %
+[12:42:43] [Render thread/INFO]: Preparando zona de aparición: 24 %
+[12:42:43] [Render thread/INFO]: Preparando zona de aparición: 25 %
+[12:42:44] [Render thread/INFO]: Preparando zona de aparición: 28 %
+[12:42:44] [Render thread/INFO]: Preparando zona de aparición: 30 %
+[12:42:45] [Render thread/INFO]: Preparando zona de aparición: 31 %
+[12:42:45] [Render thread/INFO]: Preparando zona de aparición: 32 %
+[12:42:46] [Render thread/INFO]: Preparando zona de aparición: 34 %
+[12:42:46] [Render thread/INFO]: Preparando zona de aparición: 34 %
+[12:42:47] [Render thread/INFO]: Preparando zona de aparición: 36 %
+[12:42:47] [Render thread/INFO]: Preparando zona de aparición: 37 %
+[12:42:48] [Render thread/INFO]: Preparando zona de aparición: 40 %
+[12:42:48] [Render thread/INFO]: Preparando zona de aparición: 42 %
+[12:42:49] [Render thread/INFO]: Preparando zona de aparición: 43 %
+[12:42:49] [Render thread/INFO]: Preparando zona de aparición: 44 %
+[12:42:50] [Render thread/INFO]: Preparando zona de aparición: 45 %
+[12:42:50] [Render thread/INFO]: Preparando zona de aparición: 47 %
+[12:42:51] [Render thread/INFO]: Preparando zona de aparición: 48 %
+[12:42:51] [Render thread/INFO]: Preparando zona de aparición: 50 %
+[12:42:52] [Render thread/INFO]: Preparando zona de aparición: 51 %
+[12:42:52] [Render thread/INFO]: Preparando zona de aparición: 53 %
+[12:42:53] [Render thread/INFO]: Preparando zona de aparición: 55 %
+[12:42:53] [Render thread/INFO]: Preparando zona de aparición: 55 %
+[12:42:54] [Render thread/INFO]: Preparando zona de aparición: 56 %
+[12:42:54] [Render thread/INFO]: Preparando zona de aparición: 57 %
+[12:42:55] [Render thread/INFO]: Preparando zona de aparición: 59 %
+[12:42:55] [Render thread/INFO]: Preparando zona de aparición: 62 %
+[12:42:56] [Render thread/INFO]: Preparando zona de aparición: 63 %
+[12:42:56] [Render thread/INFO]: Preparando zona de aparición: 65 %
+[12:42:57] [Render thread/INFO]: Preparando zona de aparición: 67 %
+[12:42:57] [Render thread/INFO]: Preparando zona de aparición: 68 %
+[12:42:58] [Render thread/INFO]: Preparando zona de aparición: 69 %
+[12:42:58] [Render thread/INFO]: Preparando zona de aparición: 71 %
+[12:42:59] [Render thread/INFO]: Preparando zona de aparición: 72 %
+[12:42:59] [Render thread/INFO]: Preparando zona de aparición: 75 %
+[12:43:00] [Render thread/INFO]: Preparando zona de aparición: 76 %
+[12:43:00] [Render thread/INFO]: Preparando zona de aparición: 78 %
+[12:43:01] [Render thread/INFO]: Preparando zona de aparición: 79 %
+[12:43:01] [Render thread/INFO]: Preparando zona de aparición: 81 %
+[12:43:02] [Render thread/INFO]: Preparando zona de aparición: 83 %
+[12:43:02] [Render thread/INFO]: Preparando zona de aparición: 84 %
+[12:43:03] [Render thread/INFO]: Preparando zona de aparición: 85 %
+[12:43:03] [Render thread/INFO]: Preparando zona de aparición: 87 %
+[12:43:04] [Render thread/INFO]: Preparando zona de aparición: 88 %
+[12:43:04] [Render thread/INFO]: Preparando zona de aparición: 90 %
+[12:43:05] [Render thread/INFO]: Preparando zona de aparición: 92 %
+[12:43:05] [Render thread/INFO]: Preparando zona de aparición: 94 %
+[12:43:06] [Render thread/INFO]: Preparando zona de aparición: 96 %
+[12:43:06] [Render thread/INFO]: Preparando zona de aparición: 98 %
+[12:43:07] [Render thread/INFO]: Preparando zona de aparición: 99 %
+[12:43:07] [Render thread/INFO]: Time elapsed: 39077 ms
+[12:43:07] [Server thread/INFO]: Changing view distance to 15, from 10
+[12:43:07] [Server thread/INFO]: Changing simulation distance to 8, from 0
+[12:43:08] [Server thread/INFO]: OzaRu_[local:E:dbded246] logged in with entity id 73 at (1.5, 111.0, 24.5)
+[12:43:08] [Server thread/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[12:43:09] [Server thread/INFO]: OzaRu_ se ha unido a la partida
+[12:43:09] [Render thread/INFO]: Reloading pipeline on dimension change: NamespacedId{namespace='minecraft', name='overworld'} => NamespacedId{namespace='minecraft', name='overworld'}
+[12:43:09] [Render thread/INFO]: Creating pipeline for dimension NamespacedId{namespace='minecraft', name='overworld'}
+[12:43:09] [Render thread/INFO]: Starting custom uniform resolving
+[12:43:09] [Render thread/WARN]: Failed to resolve uniform rainStrength, reason: Variable shadows build in uniform: rainStrength ( = FunctionCall{clamp {[Id{rainStrength}, Number{0.0}, Number{1.0}]} })
+java.lang.Exception: Variable shadows build in uniform: rainStrength
+	at net.coderbot.iris.uniforms.custom.CustomUniforms.addVariable(CustomUniforms.java:175) ~[iris-mc1.20.1-1.6.17.jar:?]
+	at net.coderbot.iris.uniforms.custom.CustomUniforms.<init>(CustomUniforms.java:56) ~[iris-mc1.20.1-1.6.17.jar:?]
+	at net.coderbot.iris.uniforms.custom.CustomUniforms$Builder.build(CustomUniforms.java:317) ~[iris-mc1.20.1-1.6.17.jar:?]
+	at net.coderbot.iris.uniforms.custom.CustomUniforms$Builder.build(CustomUniforms.java:329) ~[iris-mc1.20.1-1.6.17.jar:?]
+	at net.coderbot.iris.pipeline.newshader.NewWorldRenderingPipeline.<init>(NewWorldRenderingPipeline.java:255) ~[iris-mc1.20.1-1.6.17.jar:?]
+	at net.coderbot.iris.Iris.createPipeline(Iris.java:653) ~[iris-mc1.20.1-1.6.17.jar:?]
+	at net.coderbot.iris.pipeline.PipelineManager.preparePipeline(PipelineManager.java:35) ~[iris-mc1.20.1-1.6.17.jar:?]
+	at net.minecraft.class_310.handler$cbf000$iris$resetPipeline(class_310.java:12543) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_18097(class_310.java) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1481(class_310.java:2147) ~[client-intermediary.jar:?]
+	at net.minecraft.class_634.method_11120(class_634.java:424) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2678.method_11567(class_2678.java:95) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2678.method_11054(class_2678.java:25) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:22) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:156) ~[client-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:130) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:115) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1175) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:802) ~[client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:250) ~[fabric-loader-0.15.11-1.20.1.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.15.11.jar:?]
+[12:43:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2228ms or 44 ticks behind
+[12:43:11] [Render thread/WARN]: [Patcher] gl_FragColor is not supported yet, please use gl_FragData! Assuming that the shaderpack author intended to use gl_FragData[0]...
+[12:43:21] [Render thread/INFO]: Started 2 worker threads
+[12:43:21] [Render thread/INFO]: [bclib] Sending hello to server.
+[12:43:21] [Server thread/INFO]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
+[12:43:21] [Server thread/INFO]: [bclib] Auto-Sync is disabled for Singleplayer worlds.
+[12:43:21] [Render thread/INFO]: Loaded 11 advancements
+[12:43:21] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 113.3 ?s
+[12:43:21] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 40.20 ?s
+[12:43:21] [Render thread/ERROR]: Error loading and compiling book betterend:guidebook, using empty contents
+java.lang.IllegalArgumentException: `category` must be fully qualified (domain:name). Hint: Try `betterend:rituals`
+	at vazkii.patchouli.client.book.BookEntry.<init>(BookEntry.java:73) ~[Patchouli-1.20.1-84-FABRIC.jar:?]
+	at vazkii.patchouli.client.book.BookContentsBuilder.loadEntry(BookContentsBuilder.java:159) ~[Patchouli-1.20.1-84-FABRIC.jar:?]
+	at vazkii.patchouli.client.book.BookContentsBuilder.lambda$loadFiles$0(BookContentsBuilder.java:79) ~[Patchouli-1.20.1-84-FABRIC.jar:?]
+	at vazkii.patchouli.client.book.BookContentsBuilder.load(BookContentsBuilder.java:127) ~[Patchouli-1.20.1-84-FABRIC.jar:?]
+	at vazkii.patchouli.client.book.BookContentsBuilder.loadFiles(BookContentsBuilder.java:78) ~[Patchouli-1.20.1-84-FABRIC.jar:?]
+	at vazkii.patchouli.client.book.BookContentsBuilder.loadAndBuildFor(BookContentsBuilder.java:72) ~[Patchouli-1.20.1-84-FABRIC.jar:?]
+	at vazkii.patchouli.common.book.Book.reloadContents(Book.java:194) ~[Patchouli-1.20.1-84-FABRIC.jar:?]
+	at vazkii.patchouli.common.book.BookRegistry.reloadContents(BookRegistry.java:99) ~[Patchouli-1.20.1-84-FABRIC.jar:?]
+	at vazkii.patchouli.client.book.ClientBookRegistry.reload(ClientBookRegistry.java:64) ~[Patchouli-1.20.1-84-FABRIC.jar:?]
+	at vazkii.patchouli.client.base.ClientAdvancements.onClientPacket(ClientAdvancements.java:34) ~[Patchouli-1.20.1-84-FABRIC.jar:?]
+	at net.minecraft.class_632.handler$cjm000$patchouli$onSync(class_632.java:1017) ~[client-intermediary.jar:?]
+	at net.minecraft.class_632.method_2861(class_632.java:67) ~[client-intermediary.jar:?]
+	at net.minecraft.class_634.method_11130(class_634.java:1404) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2779.method_11925(class_2779.java:51) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2779.method_11054(class_2779.java:16) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:22) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:156) ~[client-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:130) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:115) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1175) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:802) ~[client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:250) ~[fabric-loader-0.15.11-1.20.1.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.15.11.jar:?]
+[12:43:21] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 129.6 ?s
+[12:43:21] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 113.9 ?s
+[12:43:21] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 153.1 ?s
+[12:43:21] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 882.9 ?s
+[12:43:21] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 1.327 ms
+[12:43:21] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 638.7 ?s
+[12:43:22] [Render thread/INFO]: [System] [CHAT] Hello, and thank you for downloading Terralith!\n\nWe'd love to see you at the\nStardust Labs Discord!\n\nAnd, if you'd like to use Terralith on\na server, check out our partner,\nBisect Hosting!\n 
+[12:43:22] [Render thread/INFO]: Loaded 42 advancements
+[12:43:22] [Render thread/INFO]: Started 2 worker threads
+[12:43:24] [Render thread/WARN]: Shader clouds could not find uniform named ModelViewMat in the specified shader program.
+[12:43:24] [Render thread/WARN]: Shader clouds could not find uniform named ProjMat in the specified shader program.
+[12:43:24] [Render thread/WARN]: Shader clouds could not find uniform named ColorModulator in the specified shader program.
+[12:43:24] [Render thread/WARN]: Shader clouds could not find uniform named FogStart in the specified shader program.
+[12:43:24] [Render thread/WARN]: Shader clouds could not find uniform named FogEnd in the specified shader program.
+[12:43:24] [Render thread/WARN]: Shader clouds could not find uniform named FogColor in the specified shader program.
+[12:43:25] [Server thread/INFO]: Saving and pausing game...
+[12:43:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:overworld
+[12:43:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_end
+[12:43:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_nether
+[12:43:29] [Render thread/INFO]: Destroying pipeline NamespacedId{namespace='minecraft', name='overworld'}
+[12:43:29] [Render thread/INFO]: Shaders are disabled because enableShaders is set to false in iris.properties
+[12:43:29] [Render thread/INFO]: Shaders are disabled
+[12:43:29] [Render thread/INFO]: Creating pipeline for dimension NamespacedId{namespace='minecraft', name='overworld'}
+[12:43:29] [Render thread/INFO]: Stopping worker threads
+[12:43:29] [Render thread/INFO]: Started 2 worker threads
+[12:43:29] [Render thread/INFO]: [System] [CHAT] ¡Shaders desactivados!
+[12:43:38] [Server thread/INFO]: Saving and pausing game...
+[12:43:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:overworld
+[12:43:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_end
+[12:43:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_nether
+[12:43:40] [Server thread/INFO]: OzaRu_ lost connection: Desconectado
+[12:43:40] [Server thread/INFO]: OzaRu_ ha abandonado la partida
+[12:43:40] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[12:43:40] [Server thread/INFO]: Stopping server
+[12:43:40] [Server thread/INFO]: Saving players
+[12:43:40] [Server thread/INFO]: Saving worlds
+[12:43:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:overworld
+[12:43:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_end
+[12:43:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_nether
+[12:43:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (Mundo nuevo): All chunks are saved
+[12:43:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:43:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:43:43] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12:43:43] [Render thread/INFO]: Stopping worker threads
+[12:44:09] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (1bfdc429)
+[12:44:09] [Render thread/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibNetherBiomeSource
+[12:44:09] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (66b15dc8)
+[12:44:09] [Render thread/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibEndBiomeSource
+[12:44:09] [Render thread/INFO]: [DataFixerAPI] Ignoring Patch{betternether:5.3.5:21020677}
+[12:44:09] [Render thread/INFO]: [DataFixerAPI] Ignoring Patch{betternether:8.2.2:33587202}
+[12:44:09] [Render thread/INFO]: [DataFixerAPI] Ignoring Patch{betternether:9.0.1:37748737}
+[12:44:09] [Render thread/INFO]: [DataFixerAPI] Ignoring Patch{bclib:3.0.11:12582923}
+[12:44:09] [Render thread/INFO]: [bclib] Running Pre Patchers on C:\Users\arube\Desktop\Mods\overrides\saves\Mundo nuevo\.
+[12:44:09] [Render thread/INFO]: [DataFixerAPI] Everything up to date
+[12:44:09] [Render thread/INFO]: [bclib] Did not manage biome betterend:empty_aurora_cave
+[12:44:09] [Render thread/INFO]: [bclib] Did not manage biome betterend:empty_end_cave
+[12:44:09] [Render thread/INFO]: [bclib] Did not manage biome betterend:empty_smaragdant_cave
+[12:44:09] [Render thread/INFO]: [bclib] Did not manage biome betterend:jade_cave
+[12:44:09] [Render thread/INFO]: [bclib] Did not manage biome betterend:lush_aurora_cave
+[12:44:09] [Render thread/INFO]: [bclib] Did not manage biome betterend:lush_smaragdant_cave
+[12:44:09] [Render thread/INFO]: [bclib] Did not manage biome betterend:megalake_grove
+[12:44:09] [Render thread/INFO]: [bclib] Did not manage biome betterend:neon_oasis
+[12:44:09] [Render thread/INFO]: [bclib] Did not manage biome betterend:painted_mountains
+[12:44:09] [Render thread/INFO]: Structure placement for `awesomedungeon:abandoned_oak_palace/start_pool`: { spacing: 50, separation: 25, salt: 1694767080, useValueFromConfiguration: true}
+[12:44:09] [Render thread/INFO]: Structure placement for `awesomedungeon:better_default_jungle_temple/start_pool`: { spacing: 50, separation: 25, salt: 1654787080, useValueFromConfiguration: true}
+[12:44:09] [Render thread/INFO]: Structure placement for `awesomedungeon:desert_temple_husk/start_pool`: { spacing: 50, separation: 25, salt: 1394767080, useValueFromConfiguration: true}
+[12:44:09] [Render thread/INFO]: Structure placement for `awesomedungeon:jungle_giant_tree/start_pool`: { spacing: 50, separation: 25, salt: 1494763380, useValueFromConfiguration: true}
+[12:44:09] [Render thread/INFO]: Structure placement for `awesomedungeon:mushroom_abandonned/start_pool`: { spacing: 50, separation: 25, salt: 1494227080, useValueFromConfiguration: true}
+[12:44:09] [Render thread/INFO]: Structure placement for `awesomedungeon:swamp_big_temple/start_pool`: { spacing: 50, separation: 25, salt: 1594763280, useValueFromConfiguration: true}
+[12:44:09] [Render thread/INFO]: Structure placement for `awesomedungeon:the_usine/start_pool`: { spacing: 50, separation: 25, salt: 1694767078, useValueFromConfiguration: true}
+[12:44:09] [Render thread/INFO]: Structure placement for `awesomedungeon:t_z_tower/start_pool`: { spacing: 50, separation: 25, salt: 1794767078, useValueFromConfiguration: true}
+[12:44:09] [Render thread/INFO]: Structure placement for `awesomedungeon:witch_castle/start_pool`: { spacing: 50, separation: 25, salt: 1894776078, useValueFromConfiguration: true}
+[12:44:09] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (130e6517)
+[12:44:09] [Render thread/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibEndBiomeSource
+[12:44:09] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (187b0356)
+[12:44:09] [Render thread/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibNetherBiomeSource
+[12:44:09] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (4c2b7536)
+[12:44:09] [Render thread/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibEndBiomeSource
+[12:44:09] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (2e1106e7)
+[12:44:09] [Render thread/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibNetherBiomeSource
+[12:44:09] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (25383557)
+[12:44:09] [Render thread/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibEndBiomeSource
+[12:44:09] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (67837e79)
+[12:44:10] [Render thread/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibNetherBiomeSource
+[12:44:10] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (47ae1206)
+[12:44:10] [Render thread/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibEndBiomeSource
+[12:44:10] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (66c5f9ce)
+[12:44:10] [Render thread/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibNetherBiomeSource
+[12:44:10] [Render thread/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[12:44:10] [Render thread/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[12:44:10] [Render thread/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[12:44:10] [Render thread/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[12:44:10] [Render thread/WARN]: [bclib] No valid BCLBiome Registry available!
+[12:44:10] [Render thread/WARN]: [bclib] No valid Biome Registry available!
+[12:44:10] [Render thread/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[12:44:10] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (7585e30)
+[12:44:10] [Render thread/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibNetherBiomeSource
+[12:44:10] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (7040ed08)
+[12:44:10] [Render thread/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibEndBiomeSource
+[12:44:10] [Render thread/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[12:44:10] [Render thread/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[12:44:10] [Render thread/INFO]: [bclib] Disabling Recipe: bclib:test_star
+[12:44:10] [Render thread/INFO]: Loaded 28 recipes
+[12:44:10] [Render thread/INFO]: Loaded 6215 advancements
+[12:44:10] [Render thread/INFO]: Reloading config...
+[12:44:14] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (70353995)
+[12:44:14] [Render thread/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibNetherBiomeSource
+[12:44:14] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (2f518e1d)
+[12:44:14] [Render thread/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibEndBiomeSource
+[12:44:14] [Render thread/INFO]: [bclib] Enforcing Correct Generator for minecraft:the_end.
+[12:44:14] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (2f518e1d)
+[12:44:14] [Render thread/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibEndBiomeSource
+[12:44:14] [Render thread/INFO]: [bclib] Enforcing Correct Generator for minecraft:the_nether.
+[12:44:14] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (70353995)
+[12:44:14] [Render thread/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibNetherBiomeSource
+[12:44:14] [Render thread/INFO]: [worlds_together] Loading originally configured Dimensions in World.
+[12:44:14] [Render thread/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[12:44:14] [Render thread/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[12:44:14] [Render thread/INFO]: Applied 6937 biome modifications to 472 of 472 new biomes in 64.75 ms
+[12:44:14] [Render thread/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[12:44:14] [Server thread/INFO]: Starting integrated minecraft server version 1.20.1
+[12:44:14] [Server thread/INFO]: Generating keypair
+[12:44:14] [Server thread/INFO]: [bclib] 
+Apply Modifications for minecraft:the_end
+    BCLib - The End  BiomeSource (2f518e1d)
+        biomes     = 24
+        namespaces = betterend(19), minecraft(5)
+        seed       = 0
+        height     = 128
+        deciders   = 0
+        config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+[12:44:14] [Server thread/INFO]: [bclib] 
+Apply Modifications for minecraft:overworld
+    class_4766 (22c6110c)
+        biomes     = 307
+        namespaces = wythers(188), minecraft(53), regions_unexplored(66)
+[12:44:14] [Server thread/INFO]: [bclib] 
+Apply Modifications for minecraft:the_nether
+    BCLib - Nether BiomeSource (70353995)
+        biomes     = 32
+        namespaces = betternether(22), minecraft(5), regions_unexplored(5)
+        seed       = 0
+        height     = 128
+        config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+[12:44:14] [Server thread/INFO]: [bclib] World Dimensions: 
+ - minecraft:the_end: 
+     BCLib - Chunk Generator (2fd06943) 
+     BCLib - The End  BiomeSource (2f518e1d)
+         biomes     = 24
+         namespaces = betterend(19), minecraft(5)
+         seed       = 0
+         height     = 128
+         deciders   = 0
+         config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+ - minecraft:overworld: 
+     net.minecraft.class_3754@662fb320 
+     class_4766 (22c6110c)
+         biomes     = 307
+         namespaces = wythers(188), minecraft(53), regions_unexplored(66)
+ - minecraft:the_nether: 
+     BCLib - Chunk Generator (18629eb2) 
+     BCLib - Nether BiomeSource (70353995)
+         biomes     = 32
+         namespaces = betternether(22), minecraft(5), regions_unexplored(5)
+         seed       = 0
+         height     = 128
+         config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+[12:44:14] [Server thread/INFO]: [bclib] Merged 19 additional Surface Rules for 
+BCLib - The End  BiomeSource (2f518e1d)
+    biomes     = 24
+    namespaces = betterend(19), minecraft(5)
+    seed       = 0
+    height     = 128
+    deciders   = 0
+    config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256} => 20
+[12:44:14] [Server thread/INFO]: [bclib] Merged 22 additional Surface Rules for 
+BCLib - Nether BiomeSource (70353995)
+    biomes     = 32
+    namespaces = betternether(22), minecraft(5), regions_unexplored(5)
+    seed       = 0
+    height     = 128
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86} => 74
+[12:44:15] [Server thread/INFO]: Loading dimension "minecraft:the_nether" with biome source: "bclib:nether_biome_source".
+[12:44:15] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:44:16] [Render thread/INFO]: Preparando zona de aparición: 0 %
+[12:44:17] [Render thread/INFO]: Preparando zona de aparición: 0 %
+[12:44:17] [Render thread/INFO]: Preparando zona de aparición: 0 %
+[12:44:17] [Render thread/INFO]: Preparando zona de aparición: 0 %
+[12:44:17] [Render thread/INFO]: Preparando zona de aparición: 0 %
+[12:44:18] [Render thread/INFO]: Preparando zona de aparición: 21 %
+[12:44:18] [Render thread/INFO]: Time elapsed: 2953 ms
+[12:44:18] [Server thread/INFO]: Changing view distance to 15, from 10
+[12:44:18] [Server thread/INFO]: Changing simulation distance to 8, from 0
+[12:44:18] [Server thread/INFO]: OzaRu_[local:E:9ed951ec] logged in with entity id 924 at (14.560748237745539, 94.0, 35.060242860931965)
+[12:44:18] [Server thread/WARN]: [bclib] Server changed!
+[12:44:18] [Server thread/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[12:44:18] [Server thread/INFO]: OzaRu_ se ha unido a la partida
+[12:44:19] [Render thread/INFO]: Reloading pipeline on dimension change: NamespacedId{namespace='minecraft', name='overworld'} => NamespacedId{namespace='minecraft', name='overworld'}
+[12:44:19] [Render thread/INFO]: Destroying pipeline NamespacedId{namespace='minecraft', name='overworld'}
+[12:44:19] [Render thread/INFO]: Creating pipeline for dimension NamespacedId{namespace='minecraft', name='overworld'}
+[12:44:19] [Render thread/INFO]: Started 2 worker threads
+[12:44:19] [Render thread/INFO]: [bclib] Sending hello to server.
+[12:44:19] [Server thread/INFO]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
+[12:44:19] [Server thread/INFO]: [bclib] Auto-Sync is disabled for Singleplayer worlds.
+[12:44:19] [Render thread/INFO]: Loaded 42 advancements
+[12:44:19] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 66.30 ?s
+[12:44:19] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 41.20 ?s
+[12:44:19] [Render thread/ERROR]: Error loading and compiling book betterend:guidebook, using empty contents
+java.lang.IllegalArgumentException: `category` must be fully qualified (domain:name). Hint: Try `betterend:rituals`
+	at vazkii.patchouli.client.book.BookEntry.<init>(BookEntry.java:73) ~[Patchouli-1.20.1-84-FABRIC.jar:?]
+	at vazkii.patchouli.client.book.BookContentsBuilder.loadEntry(BookContentsBuilder.java:159) ~[Patchouli-1.20.1-84-FABRIC.jar:?]
+	at vazkii.patchouli.client.book.BookContentsBuilder.lambda$loadFiles$0(BookContentsBuilder.java:79) ~[Patchouli-1.20.1-84-FABRIC.jar:?]
+	at vazkii.patchouli.client.book.BookContentsBuilder.load(BookContentsBuilder.java:127) ~[Patchouli-1.20.1-84-FABRIC.jar:?]
+	at vazkii.patchouli.client.book.BookContentsBuilder.loadFiles(BookContentsBuilder.java:78) ~[Patchouli-1.20.1-84-FABRIC.jar:?]
+	at vazkii.patchouli.client.book.BookContentsBuilder.loadAndBuildFor(BookContentsBuilder.java:72) ~[Patchouli-1.20.1-84-FABRIC.jar:?]
+	at vazkii.patchouli.common.book.Book.reloadContents(Book.java:194) ~[Patchouli-1.20.1-84-FABRIC.jar:?]
+	at vazkii.patchouli.common.book.BookRegistry.reloadContents(BookRegistry.java:99) ~[Patchouli-1.20.1-84-FABRIC.jar:?]
+	at vazkii.patchouli.client.book.ClientBookRegistry.reload(ClientBookRegistry.java:64) ~[Patchouli-1.20.1-84-FABRIC.jar:?]
+	at vazkii.patchouli.client.base.ClientAdvancements.onClientPacket(ClientAdvancements.java:34) ~[Patchouli-1.20.1-84-FABRIC.jar:?]
+	at net.minecraft.class_632.handler$cjm000$patchouli$onSync(class_632.java:1017) ~[client-intermediary.jar:?]
+	at net.minecraft.class_632.method_2861(class_632.java:67) ~[client-intermediary.jar:?]
+	at net.minecraft.class_634.method_11130(class_634.java:1404) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2779.method_11925(class_2779.java:51) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2779.method_11054(class_2779.java:16) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:22) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:156) ~[client-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:130) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:115) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1175) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:802) ~[client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:250) ~[fabric-loader-0.15.11-1.20.1.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.15.11.jar:?]
+[12:44:19] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 181.2 ?s
+[12:44:19] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 212.6 ?s
+[12:44:19] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 150.2 ?s
+[12:44:19] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 1.028 ms
+[12:44:19] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 1.291 ms
+[12:44:19] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 989.6 ?s
+[12:44:19] [Server thread/INFO]: Saving and pausing game...
+[12:44:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:overworld
+[12:44:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_end
+[12:44:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_nether
+[12:44:45] [Render thread/INFO]: Stopping!
+[12:44:45] [Server thread/INFO]: OzaRu_ lost connection: Desconectado
+[12:44:45] [Server thread/INFO]: OzaRu_ ha abandonado la partida
+[12:44:45] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[12:44:45] [Server thread/INFO]: Stopping server
+[12:44:45] [Server thread/INFO]: Saving players
+[12:44:45] [Server thread/INFO]: Saving worlds
+[12:44:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:overworld
+[12:44:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_end
+[12:44:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_nether
+[12:44:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (Mundo nuevo): All chunks are saved
+[12:44:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:44:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:44:46] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12:44:46] [Render thread/INFO]: Stopping worker threads

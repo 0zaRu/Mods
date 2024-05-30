@@ -1,0 +1,14 @@
+{
+  "profiles" : {
+    "51a13bc528a4366b17e657cb22890a64" : {
+      "created" : "2024-05-21T21:29:53.586Z",
+      "gameDir" : "C:\\Users\\arube\\Desktop\\Mods\\minecraft_data",
+      "icon" : "Dirt",
+      "javaArgs" : "-Xmx5G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M",
+      "lastUsed" : "2024-05-30T10:37:54.825Z",
+      "lastVersionId" : "fabric-loader-0.15.11-1.20.1",
+      "name" : "Server Minecraft 2024",
+      "type" : "custom"
+    }
+  }
+}
