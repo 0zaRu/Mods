@@ -16,4 +16,13 @@ def instalacionExterna(RUTA):
             mp.printNot(f"{e}")
     
 def instalacionEnMinecraft(RUTA):
-    mp.printNot("A Alberto le dió pereza, copia de minecraft_data y pega en .minecraft")
+    # llamar al creador de perfil de launcher diciendo la ruta donde está el juego
+    if lc.create_external(RUTA+"\servidor_2024", pirata=True):
+        # comprobar ruta con ruta_temp y si son iguales no hacer nada
+        if os.path.exists(RUTA+"minecraft_data"):
+            shutil.rmtree(RUTA+"minecraft_data")
+        
+        try:
+            shutil.copytree("./minecraft_data", RUTA+"/servidor_2024", dirs_exist_ok=True)
+        except OSError as e:
+            mp.printNot(f"{e}")

@@ -24,6 +24,10 @@ def initButtons(font, RUTA):
     button_rect = pygame.Rect(30, 80, 440, 50)
     text = font.render("Instalar por separado del .minecraft", True, white)
     text_rect = text.get_rect(center=button_rect.center)
+    
+    button_rect2 = pygame.Rect(30, 80, 440, 50)
+    text2 = font.render("Instalar por separado teniendo TLauncher", True, white)
+    text_rect2 = text.get_rect(center=button_rect.center)
 
     button_rect3 = pygame.Rect(30, 260, 440, 100)
     
@@ -58,15 +62,16 @@ def initButtons(font, RUTA):
     path_text = font.render(RUTA, True, (180, 180, 180))
     path_text_rect = path_text.get_rect(center=path_button_rect.center)
     
-    return button_rect, text, text_rect, button_rect3, text_surface, text_rect3, change_path_button_rect, change_path_text, change_path_text_rect, path_button_rect, path_text, path_text_rect
+    return button_rect, text, text_rect, button_rect2, text2, text_rect2, button_rect3, text_surface, text_rect3, change_path_button_rect, change_path_text, change_path_text_rect, path_button_rect, path_text, path_text_rect
 
 def main():
-    RUTA = os.path.join(os.getenv('USERPROFILE'), 'Documents\Minecraft')
-    RUTA_TEMP = os.path.join(os.getenv('USERPROFILE'), 'Documents\Minecraft')
+    RUTA = os.path.join(os.getenv('USERPROFILE'), 'Documents')
+    RUTA_TEMP = os.path.join(os.getenv('USERPROFILE'), 'Documents')
     
     screen, font = initPygame()
     
     button_rect, text, text_rect, \
+    button_rect2, text2, text_rect2, \
     button_rect3, text_surface, text_rect3, \
     change_path_button_rect, change_path_text, change_path_text_rect, \
     path_button_rect, path_text, path_text_rect \
@@ -78,9 +83,11 @@ def main():
         screen.fill((30, 30, 30))
         
         pygame.draw.rect(screen, purple1, button_rect)
+        pygame.draw.rect(screen, purple1, button_rect2)
         pygame.draw.rect(screen, purple1, change_path_button_rect)
         pygame.draw.rect(screen, black, path_button_rect)
         screen.blit(text, text_rect)
+        screen.blit(text2, text_rect2)
         screen.blit(text_surface, text_rect3)
         screen.blit(change_path_text, change_path_text_rect)
         
@@ -93,6 +100,8 @@ def main():
             elif event.type == pygame.MOUSEBUTTONDOWN:
                 if button_rect.collidepoint(event.pos):
                     ie.instalacionExterna(RUTA)
+                elif button_rect.collidepoint(event.pos):
+                    ie.instalacionEnMinecraft(RUTA)
                     
                 elif change_path_button_rect.collidepoint(event.pos):
                     RUTA = filedialog.askdirectory()

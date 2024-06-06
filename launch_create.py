@@ -5,9 +5,12 @@ import misPygame as mp
 
 '''====================================================================================   SEPARADO  ===================================================================================================================='''
 
-def get_minecraft_launcher_profiles_path():
+def get_minecraft_launcher_profiles_path(pirata):
     appdata_roaming = os.getenv('APPDATA')
     if appdata_roaming:
+        if pirata: 
+            return os.path.join(appdata_roaming, '.minecraft', 'TlauncherProfiles.json')
+        
         return os.path.join(appdata_roaming, '.minecraft', 'launcher_profiles.json')
     else:
         mp.printNot("APPDATA environment variable not found.")
@@ -55,10 +58,10 @@ def add_profile(target_path, source_path, profile_id, RUTA):
     save_json(target_path, target_data)
 
 
-def create_external(RUTA):
+def create_external(RUTA, pirata=False):
     try:
         JSON_SOURCE = './minecraft_data/source.json'
-        JSON_TARGET = get_minecraft_launcher_profiles_path()
+        JSON_TARGET = get_minecraft_launcher_profiles_path(pirata)
 
         # Asegurarse de que las rutas a los archivos existan
         if os.path.exists(JSON_TARGET):
