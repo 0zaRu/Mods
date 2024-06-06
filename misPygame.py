@@ -7,7 +7,7 @@ def printNot(message, color_back=(30, 30, 30)):
     
     # Inicializar pygame y la pantalla
     pygame.init()
-    screen = pygame.display.set_mode((600, 200))
+    screen = pygame.display.set_mode((800, 200))
     pygame.display.set_caption("Alerta")
     
     # Configurar la fuente predeterminada de pygame

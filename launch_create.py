@@ -10,6 +10,7 @@ def get_minecraft_launcher_profiles_path():
     if appdata_roaming:
         return os.path.join(appdata_roaming, '.minecraft', 'launcher_profiles.json')
     else:
+        mp.printNot("APPDATA environment variable not found.")
         raise EnvironmentError("APPDATA environment variable not found.")
 
 def load_json(file_path):
@@ -60,14 +61,21 @@ def create_external(RUTA):
         JSON_TARGET = get_minecraft_launcher_profiles_path()
 
         # Asegurarse de que las rutas a los archivos existan
-        if os.path.exists(JSON_TARGET) and os.path.exists(JSON_SOURCE):
-            add_profile(JSON_TARGET, JSON_SOURCE, "51a13bc528a4366b17e657cb22890a64", RUTA)
-            mp.printNot("Perfil instalado por separado del .minecraft.")
+        if os.path.exists(JSON_TARGET):
+            if os.path.exists(JSON_SOURCE):
+                add_profile(JSON_TARGET, JSON_SOURCE, "51a13bc528a4366b17e657cb22890a64", RUTA)
+                mp.printNot("Perfil instalado por separado del .minecraft.")
+                return True
+            else:
+                mp.printNot("Perfil a instalar no encontrado, creelo manualmente en minecraft launcher", (220, 20, 20))
         else:
-            mp.printNot("Una o ambas rutas de los archivos JSON no existen.", (220, 20, 20))
+            mp.printNot("Probablemente no tengas minecraft comprado, instala los mods en .minecraft", (220, 20, 20))
+        
             
     except EnvironmentError as e:
         mp.printNot(e, (220, 20, 20))
+    
+    return False
         
 
 '''=====================================================================================   EN .MINECRAF   ==================================================================================================================='''
